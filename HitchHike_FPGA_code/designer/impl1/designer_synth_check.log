@@ -1,6 +1,6 @@
 Microsemi Libero Software
-Version: 11.5.0.26
-Release: v11.5
+Version: 11.8.2.4
+Release: Libero SoC v11.8 SP2
 
 Created a new design.
 'BA_NAME' set to 'top_ba'
@@ -8,10 +8,13 @@ Created a new design.
 'IDE_DESIGNERVIEW_COUNT' set to '1'
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
-'IDE_DESIGNERVIEW_ROOTDIR' set to 'Z:\fpga_vision\fs_backscatter\designer'
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
-'DESDIR' set to 'Z:/fpga_vision/fs_backscatter/designer/impl1'
-'BA_DIR' set to 'Z:/fpga_vision/fs_backscatter/designer/impl1'
+'DESDIR' set to
+'C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/designer/impl1'
+'BA_DIR' set to
+'C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/designer/impl1'
 'BA_NETLIST_ALSO' set to '1'
 'EDNINFLAVOR' set to 'GENERIC'
 'NETLIST_NAMING_STYLE' set to 'VERILOG'
@@ -22,9 +25,9 @@ Created a new design.
 'AUDIT_PIN_FILE' set to '1'
 'AUDIT_ADL_FILE' set to '1'
 
- Netlist Reading Time = 1.0 seconds
+ Netlist Reading Time = 0.0 seconds
 Imported the file:
-   Z:\fpga_vision\fs_backscatter\synthesis\top.edn
+   C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.edn
 
 The Import command succeeded ( 00:00:01 )
 Warning: Overwriting the existing file: ../../synthesis/top.v.
@@ -32,7 +35,7 @@ Wrote to the file: ..\..\synthesis\top.v
 
 The Export command succeeded ( 00:00:01 )
 
-The Execute Script command succeeded ( 00:00:02 )
+The Execute Script command succeeded ( 00:00:04 )
 Warning: The database was closed without a save, modifications are lost
 Design closed.
 

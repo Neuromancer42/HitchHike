@@ -1,5 +1,5 @@
 KEY LIBERO "11.8"
-KEY CAPTURE "11.8.0.26"
+KEY CAPTURE "11.8.2.4"
 KEY DEFAULT_IMPORT_LOC "C:\Documents and Settings\Administrator\spi_accel\stimulus"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
@@ -31,7 +31,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "Z:\Desktop\HitchHike\HitchHike_FPGA_code"
+KEY ProjectLocation "C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -44,283 +44,283 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="437"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1498670554"
-SIZE="3762"
+TIME="1515837216"
+SIZE="4190"
 ENDFILE
 VALUE "<project>\component\work\top\top.v,hdl"
 STATE="utd"
-TIME="1498670553"
-SIZE="7356"
+TIME="1515837214"
+SIZE="9050"
 PARENT="<project>\component\work\top\top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl1\top.adb,adb"
 STATE="ood"
-TIME="1498670302"
-SIZE="1452032"
+TIME="1515409068"
+SIZE="1371136"
 ENDFILE
 VALUE "<project>\designer\impl1\top.ide_des,ide_des"
 STATE="utd"
-TIME="1498670302"
-SIZE="941"
-ENDFILE
-VALUE "<project>\designer\impl1\top.pdb,pdb"
-STATE="ood"
-TIME="1498670302"
-SIZE="67215"
+TIME="1515409068"
+SIZE="961"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba.sdf,ba_sdf"
 STATE="ood"
-TIME="1498670302"
-SIZE="536398"
-ENDFILE
-VALUE "<project>\designer\impl1\top_ba.v,ba_hdl"
-STATE="ood"
-TIME="1498670302"
-SIZE="224238"
-ENDFILE
-VALUE "<project>\designer\impl1\top_ba_log.rpt,log"
-STATE="utd"
-TIME="1498670302"
-SIZE="746"
+TIME="1515409068"
+SIZE="483315"
 ENDFILE
 VALUE "<project>\designer\impl1\top_compile_log.rpt,log"
 STATE="utd"
-TIME="1498670302"
-SIZE="9118"
+TIME="1515409068"
+SIZE="9905"
 ENDFILE
 VALUE "<project>\designer\impl1\top_fp\projectData\top.pdb,pdb"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="67215"
 ENDFILE
 VALUE "<project>\designer\impl1\top_fp\top.pro,pro"
 STATE="utd"
-TIME="1498670348"
-SIZE="2607"
-ENDFILE
-VALUE "<project>\designer\impl1\top_placeroute_log.rpt,log"
-STATE="utd"
-TIME="1498670302"
-SIZE="2457"
-ENDFILE
-VALUE "<project>\designer\impl1\top_prgdata_log.rpt,log"
-STATE="utd"
-TIME="1498670302"
-SIZE="633"
+TIME="1515409197"
+SIZE="2697"
 ENDFILE
 VALUE "<project>\designer\impl1\top_timingconstraints_log.rpt,log"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="364"
-ENDFILE
-VALUE "<project>\designer\impl1\top_verifytiming_log.rpt,log"
-STATE="utd"
-TIME="1498670302"
-SIZE="1096"
 ENDFILE
 VALUE "<project>\hdl\clock_divider.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="561"
 ENDFILE
 VALUE "<project>\hdl\counter_tmp.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="311"
 ENDFILE
 VALUE "<project>\hdl\data_dqpsk_generator.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="1424"
 ENDFILE
 VALUE "<project>\hdl\data_rate.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="2010"
 ENDFILE
 VALUE "<project>\hdl\data_source.v,hdl"
 STATE="utd"
-TIME="1498670534"
-SIZE="1688"
+TIME="1515835335"
+SIZE="2019"
 ENDFILE
 VALUE "<project>\hdl\dbpsk_modulator.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="843"
+ENDFILE
+VALUE "<project>\hdl\demodulator.v,hdl"
+STATE="utd"
+TIME="1515820416"
+SIZE="3988"
 ENDFILE
 VALUE "<project>\hdl\dqpsk_modulator.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="1590"
+ENDFILE
+VALUE "<project>\hdl\mac.v,hdl"
+STATE="utd"
+TIME="1515917092"
+SIZE="11422"
 ENDFILE
 VALUE "<project>\hdl\main_clock.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409068"
 SIZE="549"
 ENDFILE
 VALUE "<project>\hdl\modulator.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409069"
 SIZE="1039"
 ENDFILE
 VALUE "<project>\hdl\phaser_modulator.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409069"
 SIZE="4251"
+ENDFILE
+VALUE "<project>\hdl\randgen.v,hdl"
+STATE="utd"
+TIME="1515937121"
+SIZE="1655"
 ENDFILE
 VALUE "<project>\hdl\sigen_trigger.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409069"
 SIZE="868"
 ENDFILE
 VALUE "<project>\hdl\ten_mhz_clock.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409069"
 SIZE="547"
 ENDFILE
 VALUE "<project>\hdl\trigger_signal_gen.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409069"
 SIZE="766"
 ENDFILE
 VALUE "<project>\hdl\two_mhz_clock.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409069"
 SIZE="548"
 ENDFILE
 VALUE "<project>\hdl\whitening.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409069"
 SIZE="1886"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1498670302"
-SIZE="617"
+TIME="1515411808"
+SIZE="688"
+ENDFILE
+VALUE "<project>\simulation\top_tb_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1515937413"
+SIZE="68"
+ENDFILE
+VALUE "<project>\simulation\top_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1515937307"
+SIZE="68"
 ENDFILE
 VALUE "<project>\smartgen\delay\delay.cxf,actgen_cxf"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="1164"
 ENDFILE
 VALUE "<project>\smartgen\delay\delay.gen,gen"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="383"
 PARENT="<project>\smartgen\delay\delay.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\delay\delay.log,log"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="1221"
 PARENT="<project>\smartgen\delay\delay.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\delay\delay.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="1158"
 PARENT="<project>\smartgen\delay\delay.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.cxf,actgen_cxf"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="1196"
 ENDFILE
 VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.gen,gen"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="396"
 PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.log,log"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="1249"
 PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="1179"
 PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\pll_core\pll_core.cxf,actgen_cxf"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="1480"
 ENDFILE
 VALUE "<project>\smartgen\pll_core\pll_core.gen,gen"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="537"
 PARENT="<project>\smartgen\pll_core\pll_core.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\pll_core\pll_core.log,log"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="2658"
 PARENT="<project>\smartgen\pll_core\pll_core.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\smartgen\pll_core\pll_core.v,hdl"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="2711"
 PARENT="<project>\smartgen\pll_core\pll_core.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\stimulus\top_tb.v,tb_hdl"
 STATE="utd"
-TIME="1498670302"
-SIZE="1689"
+TIME="1515986415"
+SIZE="1653"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1515915018"
+SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\top_comp.so,so"
 STATE="utd"
-TIME="1498670302"
+TIME="1515409070"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\top.edn,syn_edn"
-STATE="ood"
-TIME="1498670302"
-SIZE="430210"
+STATE="utd"
+TIME="1515409070"
+SIZE="389026"
 ENDFILE
 VALUE "<project>\synthesis\top.so,so"
 STATE="utd"
-TIME="1498670302"
-SIZE="206"
+TIME="1515409070"
+SIZE="216"
 ENDFILE
 VALUE "<project>\synthesis\top.v,syn_hdl"
-STATE="ood"
-TIME="1498670302"
+STATE="utd"
+TIME="1515409070"
 SIZE="19556"
 ENDFILE
 VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
-STATE="ood"
-TIME="1498670302"
+STATE="utd"
+TIME="1515409070"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\top_syn.prj,prj"
 STATE="utd"
-TIME="1498670347"
-SIZE="2243"
+TIME="1515409197"
+SIZE="2759"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -333,7 +333,9 @@ VALUE "<project>\stimulus\top_tb.v,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
+LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -398,6 +400,7 @@ EnableSETMitigationOn=FALSE
 DisplayFanoutLimit=10
 AbortFlowOnPDCErrorsOn=TRUE
 AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
 FlashProInputFile=pdb
 SmartGenCompileReport=T
 ENDLIST
@@ -417,8 +420,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -426,7 +429,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l top_tb_postsynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -453,7 +456,9 @@ ENDLIST
 LIST ProjectState5.1
 LIST "top::work"
 LIST Impl1
+LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -476,10 +481,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-StartPage;StartPage;0
-HDL;hdl\data_source.v;0
-SmartDesign;top;0
-ACTIVEVIEW;top
+Reports;Reports;0
+ReportsCurrentItem;Synthesize:synplify.log
+HDL;stimulus\top_tb.v;0
+HDL;synthesis\top.v;0
+HDL;hdl\randgen.v;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "clock_divider::work","hdl\clock_divider.v","FALSE","FALSE"
@@ -498,11 +505,15 @@ LIST "delay::work","smartgen\delay\delay.v","TRUE","FALSE"
 ENDLIST
 LIST "delay_five_ns::work","smartgen\delay_five_ns\delay_five_ns.v","TRUE","FALSE"
 ENDLIST
+LIST "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
+ENDLIST
 LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
 ENDLIST
 LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
 ENDLIST
 LIST "dqpsk_modulator::work","hdl\dqpsk_modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "mac::work","hdl\mac.v","FALSE","FALSE"
 ENDLIST
 LIST "main_clock::work","hdl\main_clock.v","FALSE","FALSE"
 ENDLIST
@@ -512,6 +523,8 @@ LIST "phaser_modulator::work","hdl\phaser_modulator.v","FALSE","FALSE"
 ENDLIST
 LIST "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
 ENDLIST
+LIST "randgen::work","hdl\randgen.v","FALSE","FALSE"
+ENDLIST
 LIST "sigen_trigger::work","hdl\sigen_trigger.v","FALSE","FALSE"
 ENDLIST
 LIST "ten_mhz_clock::work","hdl\ten_mhz_clock.v","FALSE","FALSE"
@@ -520,12 +533,15 @@ LIST "top::work","component\work\top\top.v","TRUE","FALSE"
 SUBBLOCK "data_rate::work","hdl\data_rate.v","FALSE","FALSE"
 SUBBLOCK "data_source::work","hdl\data_source.v","FALSE","FALSE"
 SUBBLOCK "dbpsk_modulator::work","hdl\dbpsk_modulator.v","FALSE","FALSE"
+SUBBLOCK "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
 SUBBLOCK "main_clock::work","hdl\main_clock.v","FALSE","FALSE"
 SUBBLOCK "modulator::work","hdl\modulator.v","FALSE","FALSE"
 SUBBLOCK "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
 SUBBLOCK "ten_mhz_clock::work","hdl\ten_mhz_clock.v","FALSE","FALSE"
 SUBBLOCK "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
 SUBBLOCK "whitening::work","hdl\whitening.v","FALSE","FALSE"
+SUBBLOCK "mac::work","hdl\mac.v","FALSE","FALSE"
+SUBBLOCK "randgen::work","hdl\randgen.v","FALSE","FALSE"
 ENDLIST
 LIST "trigger_signal_gen::work","hdl\trigger_signal_gen.v","FALSE","FALSE"
 ENDLIST

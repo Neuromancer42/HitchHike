@@ -9,38 +9,39 @@ z2
 cModel Technology
 Z0 dZ:/fpga_vision/test_tmp/simulation
 vclock_divider
-Z1 !s110 1457226439
+Z1 !s110 1515411815
 !i10b 1
 !s100 ?`QzMA?Sf1>W[XFfWgC?D3
-Io4gdoPiBf?SLhR8YkEZMW2
-Z2 V`JN@9S9cnhjKRR_L]QIcM3
-Z3 dZ:/fpga_vision/fs_backscatter/simulation
-Z4 w1457226623
-Z5 8Z:/fpga_vision/fs_backscatter/synthesis/top.v
-Z6 FZ:/fpga_vision/fs_backscatter/synthesis/top.v
-L0 278
-Z7 OW;L;10.3c;59
+IDmf84X@]@n]N1=72XAc_62
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/simulation
+Z4 w1515409070
+Z5 8C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/synthesis/top.v
+Z6 FC:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/synthesis/top.v
+Z7 L0 278
+Z8 OW;L;10.5c;63
 r1
 !s85 0
 31
-Z8 !s108 1457226439.562000
-Z9 !s107 Z:/fpga_vision/fs_backscatter/synthesis/top.v|
-Z10 !s90 -reportprogress|300|-work|postsynth|Z:/fpga_vision/fs_backscatter/synthesis/top.v|
+Z9 !s108 1515411815.000000
+Z10 !s107 C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/synthesis/top.v|
+Z11 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/synthesis/top.v|
 !s101 -O0
 !i113 1
-Z11 o-work postsynth -O0
+Z12 o-vlog01compat -work postsynth -O0
+Z13 tCvgOpt 0
 vcounter_tmp
 !s110 1425328064
 !i10b 1
 !s100 _V8E8DBQS]XbXB5VOD3VR1
 I;fNzAkVY6^QM=ClE@BS;S1
-R2
+V`JN@9S9cnhjKRR_L]QIcM3
 R0
 w1425328061
 8Z:/fpga_vision/test_tmp/synthesis/top.v
 FZ:/fpga_vision/test_tmp/synthesis/top.v
 L0 5
-R7
+OW;L;10.3c;59
 r1
 !s85 0
 31
@@ -49,110 +50,181 @@ r1
 !s90 -reportprogress|300|-work|postsynth|Z:/fpga_vision/test_tmp/synthesis/top.v|
 !s101 -O0
 !i113 1
-R11
+o-work postsynth -O0
 vdata_rate
 R1
 !i10b 1
 !s100 ;]C4IclI4z4LeG:<JW?NU1
-IeHlFz>2^zN8JMT?U5OC7K1
+IeNdiZRAlH66h5Jg3QkFa73
 R2
 R3
 R4
 R5
 R6
 L0 55
-R7
+R8
 r1
 !s85 0
 31
-R8
 R9
 R10
+R11
 !s101 -O0
 !i113 1
-R11
-vmodulator
-R1
+R12
+R13
+vdbpsk_modulator
+Z14 !s110 1515986477
 !i10b 1
-!s100 7cPiXSGWHAk0AmeA74G]I2
-IHYPM6;OJMnofeM7MYHnN53
+!s100 [M2;6[=RUE8n<fi@Gjd?k0
+IDe^082i9=N2zadaO>P^lT3
 R2
 R3
-R4
-R5
-R6
-L0 141
-R7
-r1
-!s85 0
-31
-R8
-R9
-R10
-!s101 -O0
-!i113 1
-R11
-vpll_core
-R1
-!i10b 1
-!s100 0;PG:D59BakZL082MI_=62
-IQgUe^0>QMJL[oM]b0m0e82
-R2
-R3
-R4
+Z15 w1515986469
 R5
 R6
 L0 5
-R7
+R8
 r1
 !s85 0
 31
-R8
-R9
+Z16 !s108 1515986477.000000
 R10
+R11
 !s101 -O0
 !i113 1
-R11
-vtop
-R1
+R12
+R13
+vmain_clock
+R14
 !i10b 1
-!s100 Xl[iA<C6OgQ2JbLn:S_>M0
-Ib>N2cG5;ATCTm_C76O?d80
+!s100 5l0F6>hRhz5]=_6Me4^Pn3
+IjTZ3F2h^CRVYAIY5HP[lj2
 R2
 R3
-R4
+R15
 R5
 R6
-L0 347
 R7
+R8
 r1
 !s85 0
 31
-R8
-R9
+R16
 R10
+R11
 !s101 -O0
 !i113 1
-R11
-vtop_tb
-!s110 1457226440
+R12
+R13
+vmodulator
+R14
 !i10b 1
-!s100 5:kA4GTmbSK`4`igDQQjL1
-I3TjEi2CDH[h0`ABo_4cLY1
+!s100 nEbhfaiP_Za5_6fn^=L2D0
+I9TnDk=DMjFIYN:6`IJO:b1
 R2
 R3
-w1457216635
-8Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v
-FZ:/fpga_vision/fs_backscatter/stimulus/top_tb.v
-L0 21
-R7
+R15
+R5
+R6
+L0 407
+R8
 r1
 !s85 0
 31
-!s108 1457226439.984000
-!s107 Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v|
-!s90 -reportprogress|300|+incdir+Z:/fpga_vision/fs_backscatter/stimulus|-work|postsynth|Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v|
+R16
+R10
+R11
 !s101 -O0
 !i113 1
+R12
+R13
+vpll_core
+R14
+!i10b 1
+!s100 1@ozieGO04WjkVcYgDMN51
+IND^=8_Ck[o6:2@HWf2bYB0
+R2
+R3
+R15
+R5
+R6
+L0 357
+R8
+r1
+!s85 0
+31
+R16
+R10
 R11
-!s92 +incdir+Z:/fpga_vision/fs_backscatter/stimulus -work postsynth -O0
+!s101 -O0
+!i113 1
+R12
+R13
+vtop
+R14
+!i10b 1
+!s100 4QElT`;]RK^D><JmFIYTD0
+IU[`MT>fBaTjjzmGd6@hUo2
+R2
+R3
+R15
+R5
+R6
+L0 636
+R8
+r1
+!s85 0
+31
+R16
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vtop_tb
+R14
+!i10b 1
+!s100 CKNQzk`61JnDnf>;F2kD]0
+Iin8iJm`SfZEm8fI]:0k_R3
+R2
+R3
+w1515986415
+8C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus/top_tb.v
+FC:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus/top_tb.v
+L0 21
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus|-vlog01compat|-work|postsynth|C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R12
+!s92 +incdir+C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus -vlog01compat -work postsynth -O0
+R13
+vtwo_mhz_clock
+R14
+!i10b 1
+!s100 ;d_]5FX]3@YXTjRIOX=Xe2
+IM:QW1WG@^]EKbzZX1j`lW2
+R2
+R3
+R15
+R5
+R6
+L0 152
+R8
+r1
+!s85 0
+31
+R16
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13

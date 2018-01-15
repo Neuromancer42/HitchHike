@@ -1,9 +1,10 @@
-# Created by Microsemi Libero Software 11.8.0.26
-# Wed Jun 28 10:24:47 2017
+# Created by Microsemi Libero Software 11.8.2.4
+# Mon Jan 15 11:21:05 2018
 
-# (OPEN DESIGN)
+# (NEW DESIGN)
 
-open_design "top.adb"
+# create a new design
+new_design -name "top" -family "IGLOO"
 
 # set default back-annotation base-name
 set_defvar "BA_NAME" "top_ba"
@@ -11,12 +12,37 @@ set_defvar "IDE_DESIGNERVIEW_NAME" {Impl1}
 set_defvar "IDE_DESIGNERVIEW_COUNT" "1"
 set_defvar "IDE_DESIGNERVIEW_REV0" {Impl1}
 set_defvar "IDE_DESIGNERVIEW_REVNUM0" "1"
-set_defvar "IDE_DESIGNERVIEW_ROOTDIR" {Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer}
+set_defvar "IDE_DESIGNERVIEW_ROOTDIR" {C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\designer}
 set_defvar "IDE_DESIGNERVIEW_LASTREV" "1"
 
-report -type "timing" -format "TEXT" -analysis "max" -print_summary "yes" -use_slack_threshold "no"                             -print_paths "yes" -max_paths 5 -max_expanded_paths 1                             -max_parallel_paths 1 -include_user_sets "no"                             -include_pin_to_pin "yes" -include_clock_domains "yes"                             -select_clock_domains "no" {top_maxdelay_timing_report.txt}
-report -type "timing" -format "TEXT" -analysis "min" -print_summary "yes" -use_slack_threshold "no"                             -print_paths "yes" -max_paths 5 -max_expanded_paths 1                             -max_parallel_paths 1 -include_user_sets "no"                             -include_pin_to_pin "yes" -include_clock_domains "yes"                             -select_clock_domains "no" {top_mindelay_timing_report.txt}
-report -type "timing_violations" -format "TEXT" -analysis "max" -use_slack_threshold "yes" -slack_threshold 0.00                               -limit_max_paths "yes" -max_paths 100 -max_expanded_paths 0                               -max_parallel_paths 1 {top_maxdelay_timingviolations_report.txt}
-report -type "timing_violations" -format "TEXT" -analysis "min" -use_slack_threshold "yes" -slack_threshold 0.00                               -limit_max_paths "yes" -max_paths 100 -max_expanded_paths 0                               -max_parallel_paths 1 {top_mindelay_timingviolations_report.txt}
+# set working directory
+set_defvar "DESDIR" "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/designer/impl1"
 
-save_design
+# set back-annotation output directory
+set_defvar "BA_DIR" "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/designer/impl1"
+
+# enable the export back-annotation netlist
+set_defvar "BA_NETLIST_ALSO" "1"
+
+# set EDIF options
+set_defvar "EDNINFLAVOR" "GENERIC"
+
+# set HDL options
+set_defvar "NETLIST_NAMING_STYLE" "VERILOG"
+
+# setup status report options
+set_defvar "EXPORT_STATUS_REPORT" "1"
+set_defvar "EXPORT_STATUS_REPORT_FILENAME" "top.rpt"
+
+# legacy audit-mode flags (left here for historical reasons)
+set_defvar "AUDIT_NETLIST_FILE" "1"
+set_defvar "AUDIT_DCF_FILE" "1"
+set_defvar "AUDIT_PIN_FILE" "1"
+set_defvar "AUDIT_ADL_FILE" "1"
+
+# import of input files
+import_source  \
+-format "edif" -edif_flavor "GENERIC" -netlist_naming "VERILOG" {../../synthesis/top.edn}
+
+# export translation of original netlist
+export -format "verilog" {../../synthesis/top.v}

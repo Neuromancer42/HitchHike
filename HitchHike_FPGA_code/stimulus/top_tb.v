@@ -56,12 +56,10 @@ top top_0 (
     .clock(SYSCLK),
     .reset(NSYSRESET),
     .trigger_signal(),
+    .insig(),
 
     // Outputs
-    .Y(),
-    .GLA(),
     .clock_out( ),
-    .data_path_signal (),
     .output_signal(),
     .signal_into_switch(),
     .output_data_rate()

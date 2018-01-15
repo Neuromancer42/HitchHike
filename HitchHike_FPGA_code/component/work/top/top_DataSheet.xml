@@ -11,33 +11,36 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>Z:/Desktop/HitchHike/HitchHike_FPGA_code/component/work/top</location>
-    <state>GENERATED ( Wed Jun 28 10:22:47 2017 )</state>
+    <location>C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/component/work/top</location>
+    <state>GENERATED ( Sat Jan 13 17:53:35 2018 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\clock_divider.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\counter_tmp.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_dqpsk_generator.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dqpsk_modulator.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\modulator.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\phaser_modulator.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\sigen_trigger.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\trigger_signal_gen.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\whitening.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\delay\delay.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\delay_five_ns\delay_five_ns.v</file>
-    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\clock_divider.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\counter_tmp.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_dqpsk_generator.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dqpsk_modulator.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\phaser_modulator.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\sigen_trigger.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\trigger_signal_gen.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\delay\delay.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\delay_five_ns\delay_five_ns.v</file>
+    <file>C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v</file>
   </fileset>
   <io>
     <port-name>output_data_rate</port-name>
@@ -83,6 +86,12 @@
   </io>
   <io>
     <port-name>input_data[0]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>insig</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -191,6 +200,12 @@
     <core-location>hdl\dbpsk_modulator.v</core-location>
     <core-name>dbpsk_modulator_0</core-name>
   </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>demodulator</core-exttype>
+    <core-location>hdl\demodulator.v</core-location>
+    <core-name>demodulator_0</core-name>
+  </core>
   <core type="AdlibModule">
     <core-type>AdlibModule</core-type>
     <core-exttype>INV</core-exttype>
@@ -205,6 +220,12 @@
     <core-type>AdlibModule</core-type>
     <core-exttype>INV</core-exttype>
     <core-name>INV_2</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>mac</core-exttype>
+    <core-location>hdl\mac.v</core-location>
+    <core-name>mac_0</core-name>
   </core>
   <core type="HdlModule">
     <core-type>HdlModule</core-type>
@@ -231,8 +252,14 @@
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>SmartGen</core-exttype>
-    <core-location>Z:/Desktop/HitchHike/HitchHike_FPGA_code/smartgen/pll_core</core-location>
+    <core-location>C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/smartgen/pll_core</core-location>
     <core-name>pll_core_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>randgen</core-exttype>
+    <core-location>hdl\randgen.v</core-location>
+    <core-name>randgen_0</core-name>
   </core>
   <core type="HdlModule">
     <core-type>HdlModule</core-type>

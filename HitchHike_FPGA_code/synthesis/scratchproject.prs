@@ -1,23 +1,26 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-2
-#--  Project file Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\scratchproject.prs
+#--  Project file C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/data_rate.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/data_source.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/dbpsk_modulator.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/main_clock.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/modulator.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/smartgen/pll_core/pll_core.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/ten_mhz_clock.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/two_mhz_clock.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/whitening.v"
-add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/component/work/top/top.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/data_rate.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/data_source.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/dbpsk_modulator.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/demodulator.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/main_clock.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/modulator.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/smartgen/pll_core/pll_core.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/ten_mhz_clock.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/two_mhz_clock.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/whitening.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/mac.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/randgen.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/component/work/top/top.v"
 
 
 
 #implementation: "synthesis"
-impl -add Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis -type fpga
+impl -add C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis -type fpga
 
 #
 #implementation attributes
@@ -79,5 +82,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "Z:/Desktop/HitchHike/HitchHike_FPGA_code/synthesis/top.edn"
+project -result_file "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/synthesis/top.edn"
 impl -active "synthesis"

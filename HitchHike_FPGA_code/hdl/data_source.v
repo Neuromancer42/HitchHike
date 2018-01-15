@@ -1,7 +1,11 @@
-module data_source( clock, reset, trigger, input_data, output_data );
+module data_source( clock, reset, trigger, input_data, output_data, sending, head, datacmd );
 input clock, reset;
 input trigger;
 input[9:0] input_data;
+input sending;
+input head;
+input datacmd;
+
 output reg output_data;
 
 reg[143:0] state;
@@ -35,8 +39,18 @@ begin
         if (counter==16'd0)
         begin
             counter <= counter+1;
-            state <= {state[142:0],state[143]};
-            output_data <= state[143];
+            if (sending)
+            begin
+                if (datacmd)
+                begin
+                    state <= {state[142:0],state[143]};
+                    output_data <= state[143];
+                end
+                else
+                begin
+                    output_data <= head;
+                end
+            end
         end
         else
         begin

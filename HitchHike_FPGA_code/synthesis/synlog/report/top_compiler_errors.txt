@@ -1,3 +1,2 @@
-@E: CG501 :"Z:\fpga_vision\xorfi\hdl\data_source.v":26:18:26:18|Expecting delimiter: , or ; or )
-@E: CS187 :"Z:\fpga_vision\xorfi\hdl\data_source.v":66:0:66:8|Expecting endmodule
+@E: CG906 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":49:13:49:19|Reference to unknown variable $random.
 

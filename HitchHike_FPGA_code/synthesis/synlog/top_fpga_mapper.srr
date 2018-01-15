@@ -1,106 +1,124 @@
-# Wed Jun 28 10:23:04 2017
+# Mon Jan 15 11:20:58 2018
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 Product Version L-2016.09M-2
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\mac.v":63:0:63:5|Removing sequential instance mac_0.div_counter[5:0] (in view: work.top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\mac.v":63:0:63:5|Removing sequential instance mac_0.working (in view: work.top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\mac.v":63:0:63:5|Removing sequential instance mac_0.init (in view: work.top(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\mac.v":63:0:63:5|Removing sequential instance mac_0.memo[1:0] (in view: work.top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\component\work\top\top.v":180:12:180:24|Removing instance demodulator_0 (in view: work.top(verilog)) of type view:work.demodulator(verilog) because it does not drive other instances.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
-@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Found counter in view:work.data_source(verilog) instance counter[15:0] 
-@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[7] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[5] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[4] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[3] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[7] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[5] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[4] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[3] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[7] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[5] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[4] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[3] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\dbpsk_modulator.v":9:0:9:5|Found counter in view:work.dbpsk_modulator(verilog) instance counter[15:0] 
-@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\main_clock.v":23:23:23:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
-@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance clock_counter[15:0] 
-@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance counter[5:0] 
-@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\two_mhz_clock.v":23:23:23:32|Found 12-bit incrementor, 'un5_counter[11:0]'
-@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Found counter in view:work.whitening(verilog) instance counter[15:0] 
-@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\whitening.v":69:30:69:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
+@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\dbpsk_modulator.v":9:0:9:5|Found counter in view:work.dbpsk_modulator(verilog) instance counter[15:0] 
+@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\main_clock.v":23:23:23:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
+@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance clock_counter[15:0] 
+@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance counter[5:0] 
+@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\two_mhz_clock.v":23:23:23:32|Found 12-bit incrementor, 'un5_counter[11:0]'
+@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Found counter in view:work.whitening(verilog) instance counter[15:0] 
+@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":69:30:69:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Register bit state[0] (in view view:work.whitening(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Register bit state[1] (in view view:work.whitening(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Register bit state[2] (in view view:work.whitening(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Register bit state[3] (in view view:work.whitening(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Register bit state[4] (in view view:work.whitening(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Register bit state[5] (in view view:work.whitening(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Register bit state[6] (in view view:work.whitening(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Register bit output_whitening (in view view:work.whitening(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN115 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":69:30:69:46|Removing instance un2_output_counter_1 (in view: work.whitening(verilog)) of type view:VhdlGenLib.INC___w16(finc) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[15] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[14] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[13] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[12] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[11] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[10] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[9] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[8] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[7] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[6] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[5] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[4] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[3] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[2] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[1] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":58:0:58:5|Removing sequential instance output_counter[0] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[15] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[14] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[13] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[12] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[11] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[10] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[9] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[8] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[7] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[6] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[5] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[4] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[3] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[2] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[1] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Removing sequential instance counter[0] (in view: work.whitening(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 
-Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
-
-
-Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 113MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 113MB)
-
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 113MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 113MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 113MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@N: BN115 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\component\work\top\top.v":309:10:309:20|Removing instance whitening_0 (in view: work.top(verilog)) of type view:work.whitening(verilog) because it does not drive other instances.
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\dbpsk_modulator.v":9:0:9:5|Register bit dbpsk_modulator_0.output_dbpsk (in view view:work.top(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 113MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 
 High Fanout Net Report
 **********************
 
-Driver Instance / Pin Name           Fanout, notes                   
----------------------------------------------------------------------
-data_source_0.counter23_0_a2 / Y     145                             
-reset_pad / Y                        263 : 263 asynchronous set/reset
-modulator_0.output_signal / Q        225                             
-=====================================================================
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+reset_pad / Y                  61 : 61 asynchronous set/reset
+=============================================================
 
 @N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
-@N: FP130 |Promoting Net ref_signal_c on CLKINT  main_clock_0.clock_out_inferred_clock 
-@N: FP130 |Promoting Net output_signal_c on CLKINT  I_56 
-@N: FP130 |Promoting Net data_source_0.counter23 on CLKINT  I_57 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 113MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 
 Added 0 Buffers
@@ -108,7 +126,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 113MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 
 
@@ -119,13 +137,13 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 263 clock pin(s) of sequential element(s)
-0 instances converted, 263 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 61 clock pin(s) of sequential element(s)
+0 instances converted, 61 sequential instances remain driven by gated/generated clocks
 
 ========================================================================================================== Gated/Generated Clocks ===========================================================================================================
 Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                 Explanation                                                                                                                   
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       main_clock_0.clock_out     DFN1C0                 241        whitening_0.state[6]            No generated or derived clock directive on output of sequential instance                                                      
+@K:CKID0001       main_clock_0.clock_out     DFN1C0                 39         modulator_0.output_signal       No generated or derived clock directive on output of sequential instance                                                      
 @K:CKID0002       pll_core_0.Core            PLL                    22         two_mhz_clock_0.counter[11]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 =============================================================================================================================================================================================================================================
 
@@ -133,26 +151,26 @@ Clock Tree ID     Driving Element            Drive Element Type     Fanout     S
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
-Writing Analyst data base Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_m.srm
+Writing Analyst data base C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 111MB)
 
 Writing EDIF Netlist and constraint files
 L-2016.09M-2
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 111MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 111MB)
 
 @W: MT420 |Found inferred clock pll_core|GLA_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:pll_core_0.GLA"
 @W: MT420 |Found inferred clock main_clock|clock_out_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:main_clock_0.clock_out"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Jun 28 10:23:07 2017
+# Timing Report written on Mon Jan 15 11:21:00 2018
 #
 
 
@@ -174,12 +192,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 488.995
+Worst slack in design: 961.582
 
                                         Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                          Frequency     Frequency     Period        Period        Slack       Type         Group              
 --------------------------------------------------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock     1.0 MHz       23.7 MHz      1000.000      42.202        488.995     inferred     Inferred_clkgroup_0
+main_clock|clock_out_inferred_clock     1.0 MHz       26.0 MHz      1000.000      38.418        961.582     inferred     Inferred_clkgroup_0
 pll_core|GLA_inferred_clock             1.0 MHz       54.7 MHz      1000.000      18.284        981.716     inferred     Inferred_clkgroup_1
 ============================================================================================================================================
 
@@ -190,13 +208,13 @@ pll_core|GLA_inferred_clock             1.0 MHz       54.7 MHz      1000.000    
 Clock Relationships
 *******************
 
-Clocks                                                                    |    rise  to  rise     |    fall  to  fall     |    rise  to  fall     |    fall  to  rise   
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                             Ending                               |  constraint  slack    |  constraint  slack    |  constraint  slack    |  constraint  slack  
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock  main_clock|clock_out_inferred_clock  |  1000.000    957.798  |  1000.000    979.758  |  500.000     488.996  |  500.000     493.990
-pll_core|GLA_inferred_clock          pll_core|GLA_inferred_clock          |  1000.000    981.716  |  No paths    -        |  No paths    -        |  No paths    -      
-========================================================================================================================================================================
+Clocks                                                                    |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+main_clock|clock_out_inferred_clock  main_clock|clock_out_inferred_clock  |  1000.000    961.582  |  No paths    -      |  No paths    -      |  No paths    -    
+pll_core|GLA_inferred_clock          pll_core|GLA_inferred_clock          |  1000.000    981.716  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -218,41 +236,41 @@ Detailed Report for Clock: main_clock|clock_out_inferred_clock
 Starting Points with Worst Slack
 ********************************
 
-                                 Starting                                                                                      Arrival            
-Instance                         Reference                               Type         Pin     Net                              Time        Slack  
-                                 Clock                                                                                                            
---------------------------------------------------------------------------------------------------------------------------------------------------
-modulator_0.output_signal        main_clock|clock_out_inferred_clock     DFN1E1C0     Q       output_signal_0                  1.771       488.995
-whitening_0.state[3]             main_clock|clock_out_inferred_clock     DFN1E1C0     Q       state[3]                         1.771       489.421
-whitening_0.state[6]             main_clock|clock_out_inferred_clock     DFN1E1C0     Q       state[6]                         1.771       490.654
-data_source_0.output_data        main_clock|clock_out_inferred_clock     DFN1E0C0     Q       data_source_0_output_data        1.771       493.660
-whitening_0.output_whitening     main_clock|clock_out_inferred_clock     DFN0E0C0     Q       whitening_0_output_whitening     1.570       493.990
-dbpsk_modulator_0.counter[1]     main_clock|clock_out_inferred_clock     DFN1P0       Q       counter_i_0[1]                   1.771       957.798
-dbpsk_modulator_0.counter[0]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       958.437
-data_source_0.counter[0]         main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       959.101
-whitening_0.counter[0]           main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       959.101
-whitening_0.counter[1]           main_clock|clock_out_inferred_clock     DFN1P0       Q       counter_i_0[1]                   1.771       959.945
-==================================================================================================================================================
+                                 Starting                                                                          Arrival            
+Instance                         Reference                               Type         Pin     Net                  Time        Slack  
+                                 Clock                                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------
+modulator_0.clock_counter[0]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[0]     1.395       961.582
+modulator_0.clock_counter[1]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[1]     1.395       962.659
+dbpsk_modulator_0.counter[0]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]           1.771       963.452
+dbpsk_modulator_0.counter[1]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[1]           1.771       964.025
+dbpsk_modulator_0.counter[2]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[2]           1.771       964.505
+modulator_0.clock_counter[2]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[2]     1.395       965.023
+dbpsk_modulator_0.counter[3]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[3]           1.771       966.702
+modulator_0.clock_counter[3]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[3]     1.395       967.504
+dbpsk_modulator_0.counter[4]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[4]           1.771       968.865
+modulator_0.clock_counter[4]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[4]     1.395       969.078
+======================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                  Starting                                                                                   Required            
-Instance                          Reference                               Type         Pin     Net                           Time         Slack  
-                                  Clock                                                                                                          
--------------------------------------------------------------------------------------------------------------------------------------------------
-whitening_0.output_whitening      main_clock|clock_out_inferred_clock     DFN0E0C0     D       N_32                          498.288      488.995
-whitening_0.output_whitening      main_clock|clock_out_inferred_clock     DFN0E0C0     E       output_whitening_1_sqmuxa     498.538      489.985
-whitening_0.output_counter[0]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
-whitening_0.output_counter[1]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
-whitening_0.output_counter[2]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
-whitening_0.output_counter[3]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
-whitening_0.output_counter[4]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
-whitening_0.output_counter[5]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
-whitening_0.output_counter[6]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
-whitening_0.output_counter[7]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
-=================================================================================================================================================
+                                  Starting                                                                           Required            
+Instance                          Reference                               Type         Pin     Net                   Time         Slack  
+                                  Clock                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------
+modulator_0.clock_counter[15]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n15     998.705      961.582
+dbpsk_modulator_0.counter[15]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n15           998.705      963.452
+modulator_0.clock_counter[14]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n14     998.705      963.908
+dbpsk_modulator_0.counter[14]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n14           998.705      965.749
+modulator_0.clock_counter[13]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n13     998.705      966.389
+dbpsk_modulator_0.counter[13]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n13           998.705      967.913
+dbpsk_modulator_0.counter[12]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n12           998.622      968.777
+modulator_0.clock_counter[12]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n12     998.705      968.870
+dbpsk_modulator_0.counter[11]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n11           998.622      970.941
+modulator_0.clock_counter[11]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n11     998.705      971.350
+=========================================================================================================================================
 
 
 
@@ -261,35 +279,65 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      500.000
-    - Setup time:                            1.712
+      Requested Period:                      1000.000
+    - Setup time:                            1.295
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         498.288
+    = Required time:                         998.705
 
-    - Propagation time:                      9.292
+    - Propagation time:                      37.124
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     488.995
+    = Slack (critical) :                     961.582
 
-    Number of logic level(s):                2
-    Starting point:                          modulator_0.output_signal / Q
-    Ending point:                            whitening_0.output_whitening / D
+    Number of logic level(s):                12
+    Starting point:                          modulator_0.clock_counter[0] / Q
+    Ending point:                            modulator_0.clock_counter[15] / D
     The start point is clocked by            main_clock|clock_out_inferred_clock [rising] on pin CLK
-    The end   point is clocked by            main_clock|clock_out_inferred_clock [falling] on pin CLK
+    The end   point is clocked by            main_clock|clock_out_inferred_clock [rising] on pin CLK
 
-Instance / Net                                     Pin      Pin               Arrival     No. of    
-Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------
-modulator_0.output_signal             DFN1E1C0     Q        Out     1.771     1.771       -         
-output_signal_0                       Net          -        -       0.773     -           1         
-modulator_0.output_signal_RNI2QGD     CLKINT       A        In      -         2.543       -         
-modulator_0.output_signal_RNI2QGD     CLKINT       Y        Out     0.418     2.961       -         
-output_signal_c                       Net          -        -       3.846     -           225       
-whitening_0.output_whitening_RNO      XA1          C        In      -         6.807       -         
-whitening_0.output_whitening_RNO      XA1          Y        Out     1.712     8.520       -         
-N_32                                  Net          -        -       0.773     -           1         
-whitening_0.output_whitening          DFN0E0C0     D        In      -         9.292       -         
-====================================================================================================
-Total path delay (propagation time + setup) of 11.005 is 5.613(51.0%) logic and 5.392(49.0%) route.
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+modulator_0.clock_counter[0]               DFN1E1C0     Q        Out     1.395     1.395       -         
+clock_counter[0]                           Net          -        -       1.938     -           3         
+modulator_0.clock_counter_RNIFVF2[1]       OR2B         B        In      -         3.333       -         
+modulator_0.clock_counter_RNIFVF2[1]       OR2B         Y        Out     1.240     4.573       -         
+N_39                                       Net          -        -       1.938     -           3         
+modulator_0.clock_counter_RNIO0O3[2]       OR2A         B        In      -         6.511       -         
+modulator_0.clock_counter_RNIO0O3[2]       OR2A         Y        Out     1.554     8.064       -         
+N_40                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNI2305[3]       OR2A         B        In      -         8.992       -         
+modulator_0.clock_counter_RNI2305[3]       OR2A         Y        Out     1.554     10.545      -         
+N_41                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNID686[4]       OR2A         B        In      -         11.472      -         
+modulator_0.clock_counter_RNID686[4]       OR2A         Y        Out     1.554     13.026      -         
+N_42                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNIPAG7[5]       OR2A         B        In      -         13.953      -         
+modulator_0.clock_counter_RNIPAG7[5]       OR2A         Y        Out     1.554     15.507      -         
+N_43                                       Net          -        -       1.938     -           3         
+modulator_0.clock_counter_RNI3U8B[6]       OR2          B        In      -         17.445      -         
+modulator_0.clock_counter_RNI3U8B[6]       OR2          Y        Out     1.554     18.998      -         
+N_46                                       Net          -        -       2.844     -           4         
+modulator_0.clock_counter_RNIB3OL[10]      OR2          B        In      -         21.842      -         
+modulator_0.clock_counter_RNIB3OL[10]      OR2          Y        Out     1.554     23.396      -         
+N_48                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNI41VU[11]      OR2A         B        In      -         24.323      -         
+modulator_0.clock_counter_RNI41VU[11]      OR2A         Y        Out     1.554     25.877      -         
+N_49                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNIUV581[12]     OR2A         B        In      -         26.804      -         
+modulator_0.clock_counter_RNIUV581[12]     OR2A         Y        Out     1.554     28.358      -         
+N_50                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNIPVCH1[13]     OR2A         B        In      -         29.285      -         
+modulator_0.clock_counter_RNIPVCH1[13]     OR2A         Y        Out     1.554     30.838      -         
+N_52                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNO_0[15]        OR2A         B        In      -         31.765      -         
+modulator_0.clock_counter_RNO_0[15]        OR2A         Y        Out     1.554     33.319      -         
+N_91                                       Net          -        -       0.773     -           1         
+modulator_0.clock_counter_RNO[15]          XA1A         B        In      -         34.092      -         
+modulator_0.clock_counter_RNO[15]          XA1A         Y        Out     2.259     36.351      -         
+clock_counter_n15                          Net          -        -       0.773     -           1         
+modulator_0.clock_counter[15]              DFN1E1C0     D        In      -         37.124      -         
+=========================================================================================================
+Total path delay (propagation time + setup) of 38.418 is 21.725(56.5%) logic and 16.693(43.5%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -391,64 +439,52 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 111MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 111MB)
 
 --------------------------------------------------------------------------------
 Target Part: AGLN250V2_VQFP100_STD
 Report for cell top.verilog
   Core Cell usage:
               cell count     area count*area
-              AND2    10      1.0       10.0
-              AND3    35      1.0       35.0
-               AO1     3      1.0        3.0
-              AO1B     5      1.0        5.0
+              AND2     7      1.0        7.0
+              AND3    18      1.0       18.0
+              AO1B     2      1.0        2.0
               AOI1     2      1.0        2.0
-             AOI1B     7      1.0        7.0
-              AX1C     2      1.0        2.0
-              AX1D     2      1.0        2.0
-            CLKINT     3      0.0        0.0
-               GND     8      0.0        0.0
-               INV     5      1.0        5.0
-               MX2   144      1.0      144.0
-              NOR2    17      1.0       17.0
-             NOR2A    10      1.0       10.0
-             NOR2B   139      1.0      139.0
-              NOR3     6      1.0        6.0
-             NOR3A    14      1.0       14.0
-             NOR3B    11      1.0       11.0
-             NOR3C    18      1.0       18.0
+             AOI1B     4      1.0        4.0
+              AX1C     4      1.0        4.0
+               GND     6      0.0        0.0
+               INV     4      1.0        4.0
+              NOR2    10      1.0       10.0
+             NOR2A     6      1.0        6.0
+             NOR2B    28      1.0       28.0
+              NOR3     4      1.0        4.0
+             NOR3A     4      1.0        4.0
+             NOR3B     5      1.0        5.0
+             NOR3C     7      1.0        7.0
                OA1     1      1.0        1.0
-              OA1B     1      1.0        1.0
               OA1C     1      1.0        1.0
-               OR2    19      1.0       19.0
-              OR2A    78      1.0       78.0
+               OR2     7      1.0        7.0
+              OR2A    11      1.0       11.0
               OR2B     2      1.0        2.0
                OR3     2      1.0        2.0
-              OR3A     3      1.0        3.0
               OR3C     1      1.0        1.0
                PLL     1      0.0        0.0
             PLLINT     1      0.0        0.0
-               VCC     8      0.0        0.0
-               XA1     1      1.0        1.0
-              XA1A    34      1.0       34.0
+               VCC     6      0.0        0.0
+               XA1    13      1.0       13.0
+              XA1A    13      1.0       13.0
               XA1B     4      1.0        4.0
-              XA1C     1      1.0        1.0
-              XAI1    16      1.0       16.0
-             XAI1A     3      1.0        3.0
-              XOR2    36      1.0       36.0
+              XAI1     1      1.0        1.0
+              XOR2    18      1.0       18.0
 
 
-          DFN0E0C0     1      1.0        1.0
-          DFN0E1C0    16      1.0       16.0
-            DFN1C0   160      1.0      160.0
-          DFN1E0C0     1      1.0        1.0
-          DFN1E1C0    25      1.0       25.0
-            DFN1P0    60      1.0       60.0
+            DFN1C0    44      1.0       44.0
+          DFN1E1C0    17      1.0       17.0
                    -----          ----------
-             TOTAL   917               896.0
+             TOTAL   254               240.0
 
 
   IO Cell usage:
@@ -460,7 +496,7 @@ Report for cell top.verilog
              TOTAL     9
 
 
-Core Cells         : 896 of 6144 (15%)
+Core Cells         : 240 of 6144 (4%)
 IO Cells           : 9
 
   RAM/ROM Usage Summary
@@ -468,9 +504,9 @@ Block Rams : 0 of 8 (0%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 26MB peak: 113MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 25MB peak: 111MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:02s cputime
-# Wed Jun 28 10:23:07 2017
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jan 15 11:21:00 2018
 
 ###########################################################]

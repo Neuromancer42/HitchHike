@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Jun 28 10:22:47 2017
-// Version: v11.8 11.8.0.26
+// Created by SmartDesign Sat Jan 13 17:53:34 2018
+// Version: v11.8 SP2 11.8.2.4
 //////////////////////////////////////////////////////////////////////
 
 `timescale 1ns / 100ps
@@ -10,6 +10,7 @@ module top(
     // Inputs
     clock,
     input_data,
+    insig,
     reset,
     trigger_signal,
     // Outputs
@@ -26,6 +27,7 @@ module top(
 //--------------------------------------------------------------------
 input        clock;
 input  [9:0] input_data;
+input        insig;
 input        reset;
 input        trigger_signal;
 //--------------------------------------------------------------------
@@ -40,35 +42,45 @@ output       signal_into_switch;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
-wire         AND2_0_Y;
-wire         AND2_1_Y;
-wire         AND2_2_Y;
-wire         AND2_3_Y;
-wire         clock;
-wire         clock_out_0;
-wire         data_path_signal;
-wire         data_source_0_output_data;
-wire   [9:0] input_data;
-wire         INV_1_Y;
-wire         INV_2_Y;
-wire         output_data_rate_net_0;
-wire         output_signal_net_0;
-wire         pll_core_0_GLA;
-wire         ref_signal_net_0;
-wire         reset;
-wire         signal_into_switch_net_0;
-wire         trigger_signal;
-wire         whitening_0_output_whitening;
-wire         Y;
-wire         signal_into_switch_net_1;
-wire         ref_signal_net_1;
-wire         output_data_rate_net_1;
-wire         clock_out_0_net_0;
-wire         output_signal_net_1;
+wire          AND2_0_Y;
+wire          AND2_1_Y;
+wire          AND2_2_Y;
+wire          AND2_3_Y;
+wire          clock;
+wire          clock_out_0;
+wire          data_path_signal;
+wire          data_source_0_output_data;
+wire   [1:0]  demodulator_0_ctg;
+wire   [7:0]  demodulator_0_cur_flag;
+wire   [47:0] demodulator_0_cur_scheme;
+wire   [1:0]  demodulator_0_ord;
+wire   [9:0]  input_data;
+wire          insig;
+wire          INV_1_Y;
+wire          INV_2_Y;
+wire          mac_0_datacmd;
+wire          mac_0_head;
+wire          mac_0_sending;
+wire          mac_0_working;
+wire          output_data_rate_net_0;
+wire          output_signal_net_0;
+wire          pll_core_0_GLA;
+wire   [23:0] randgen_0_cur_rand;
+wire          ref_signal_net_0;
+wire          reset;
+wire          signal_into_switch_net_0;
+wire          trigger_signal;
+wire          whitening_0_output_whitening;
+wire          Y;
+wire          signal_into_switch_net_1;
+wire          ref_signal_net_1;
+wire          output_data_rate_net_1;
+wire          clock_out_0_net_0;
+wire          output_signal_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
-wire         VCC_net;
+wire          VCC_net;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
@@ -146,6 +158,9 @@ data_source data_source_0(
         .reset       ( reset ),
         .trigger     ( output_signal_net_0 ),
         .input_data  ( input_data ),
+        .sending     ( mac_0_sending ),
+        .head        ( mac_0_head ),
+        .datacmd     ( mac_0_datacmd ),
         // Outputs
         .output_data ( data_source_0_output_data ) 
         );
@@ -159,6 +174,20 @@ dbpsk_modulator dbpsk_modulator_0(
         .trigger      ( output_signal_net_0 ),
         // Outputs
         .output_dbpsk ( output_data_rate_net_0 ) 
+        );
+
+//--------demodulator
+demodulator demodulator_0(
+        // Inputs
+        .clock      ( ref_signal_net_0 ),
+        .reset      ( reset ),
+        .insig      ( insig ),
+        .working    ( mac_0_working ),
+        // Outputs
+        .ord        ( demodulator_0_ord ),
+        .ctg        ( demodulator_0_ctg ),
+        .cur_flag   ( demodulator_0_cur_flag ),
+        .cur_scheme ( demodulator_0_cur_scheme ) 
         );
 
 //--------INV
@@ -183,6 +212,23 @@ INV INV_2(
         .A ( output_signal_net_0 ),
         // Outputs
         .Y ( INV_2_Y ) 
+        );
+
+//--------mac
+mac mac_0(
+        // Inputs
+        .clock      ( ref_signal_net_0 ),
+        .reset      ( reset ),
+        .ord        ( demodulator_0_ord ),
+        .cur_rand   ( randgen_0_cur_rand ),
+        .ctg        ( demodulator_0_ctg ),
+        .cur_flag   ( demodulator_0_cur_flag ),
+        .cur_scheme ( demodulator_0_cur_scheme ),
+        // Outputs
+        .sending    ( mac_0_sending ),
+        .head       ( mac_0_head ),
+        .datacmd    ( mac_0_datacmd ),
+        .working    ( mac_0_working ) 
         );
 
 //--------main_clock
@@ -230,6 +276,15 @@ pll_core pll_core_0(
         // Outputs
         .LOCK      (  ),
         .GLA       ( pll_core_0_GLA ) 
+        );
+
+//--------randgen
+randgen randgen_0(
+        // Inputs
+        .clock    ( ref_signal_net_0 ),
+        .reset    ( reset ),
+        // Outputs
+        .cur_rand ( randgen_0_cur_rand ) 
         );
 
 //--------ten_mhz_clock

@@ -1,26 +1,67 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":1:7:1:15|Synthesizing module data_rate in library work.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":1:7:1:17|Synthesizing module data_source in library work.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":1:7:1:21|Synthesizing module dbpsk_modulator in library work.
-@N: CG179 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":22:32:22:43|Removing redundant assignment.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":1:7:1:15|Synthesizing module data_rate in library work.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":1:7:1:17|Synthesizing module data_source in library work.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":1:7:1:21|Synthesizing module dbpsk_modulator in library work.
+@N: CG179 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":22:32:22:43|Removing redundant assignment.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v":21:7:21:17|Synthesizing module demodulator in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":1:7:1:16|Synthesizing module main_clock in library work.
-@N: CG179 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":24:25:24:33|Removing redundant assignment.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\modulator.v":1:7:1:15|Synthesizing module modulator in library work.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":21:7:21:9|Synthesizing module mac in library work.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[0] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[1] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[2] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[3] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[4] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[5] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[6] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[7] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[8] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit cursor[9] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit data_len[0] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit data_len[1] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit data_len[2] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit data_len[9] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit launch is always 0.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":1:7:1:16|Synthesizing module main_clock in library work.
+@N: CG179 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":24:25:24:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v":1:7:1:15|Synthesizing module modulator in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1464:7:1464:9|Synthesizing module OR2 in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core in library work.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v":1:7:1:19|Synthesizing module ten_mhz_clock in library work.
-@N: CG179 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v":24:25:24:33|Removing redundant assignment.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v":1:7:1:19|Synthesizing module two_mhz_clock in library work.
-@N: CG179 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v":24:25:24:33|Removing redundant assignment.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\whitening.v":1:7:1:15|Synthesizing module whitening in library work.
-@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
-@N: CL159 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":4:11:4:20|Input input_data is unused.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core in library work.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":21:7:21:13|Synthesizing module randgen in library work.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v":1:7:1:19|Synthesizing module ten_mhz_clock in library work.
+@N: CG179 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v":24:25:24:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v":1:7:1:19|Synthesizing module two_mhz_clock in library work.
+@N: CG179 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v":24:25:24:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v":1:7:1:15|Synthesizing module whitening in library work.
+@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit cur_rand[0] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit cur_rand[1] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit cur_rand[2] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit counter[3] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit counter[2] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit counter[1] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit counter[0] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit cur_rand[4] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit cur_rand[5] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit cur_rand[11] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit blank is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit i[0] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit i[1] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit i[2] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit i[3] is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit counting is always 1.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit calculating is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit choosing is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit start is always 0.
+@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit past is always 0.
+@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":27:12:27:19|Input cur_rand is unused.
+@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":29:11:29:18|Input cur_flag is unused.
+@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":30:12:30:21|Input cur_scheme is unused.
+@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":4:11:4:20|Input input_data is unused.
 @N|Running in 64-bit mode
 
