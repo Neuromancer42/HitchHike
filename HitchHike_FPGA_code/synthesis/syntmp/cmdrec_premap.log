@@ -1,14 +1,14 @@
 C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synlog\report\top_premap.xml  -top_level_module  top  -oedif  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.edn  -conchk_prepass  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top_cck.rpt   -freq 1.000   C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_prem.srd  -qsap  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v  -ologparam  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\syntmp\top.plg  -osyn  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_prem.srd  -prjdir  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\  -prjname  top_syn  -log  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_premap.srr 
 rc:1 success:1 runtime:1
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\scratchproject.prs|io:o|time:1515919294|size:3190|exec:0
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.edn|io:o|time:1515982594|size:128441|exec:0
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top_cck.rpt|io:o|time:1515986458|size:21619|exec:0
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_mult.srs|io:i|time:1515986457|size:6299|exec:0
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_prem.srd|io:o|time:1515986457|size:31758|exec:0
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.sap|io:o|time:1515986458|size:2048|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\scratchproject.prs|io:o|time:1516190323|size:3190|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.edn|io:o|time:1516189532|size:398095|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top_cck.rpt|io:o|time:1516190327|size:21619|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_mult.srs|io:i|time:1516190326|size:6294|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_prem.srd|io:o|time:1516190327|size:32271|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.sap|io:o|time:1516190327|size:2049|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v|io:i|time:1487916450|size:50704|exec:0
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\syntmp\top.plg|io:o|time:1515986457|size:0|exec:0
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_prem.srd|io:o|time:1515986457|size:31758|exec:0
-file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_premap.srr|io:o|time:1515986458|size:9298|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\syntmp\top.plg|io:o|time:1516190326|size:0|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_prem.srd|io:o|time:1516190327|size:32271|exec:0
+file:C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_premap.srr|io:o|time:1516190327|size:9298|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479349034|size:10978304|exec:1
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479350440|size:14125056|exec:1

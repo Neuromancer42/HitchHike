@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sat Jan 13 17:53:34 2018
+// Created by SmartDesign Wed Jan 17 19:52:57 2018
 // Version: v11.8 SP2 11.8.2.4
 //////////////////////////////////////////////////////////////////////
 
@@ -157,10 +157,10 @@ data_source data_source_0(
         .clock       ( ref_signal_net_0 ),
         .reset       ( reset ),
         .trigger     ( output_signal_net_0 ),
-        .input_data  ( input_data ),
         .sending     ( mac_0_sending ),
         .head        ( mac_0_head ),
         .datacmd     ( mac_0_datacmd ),
+        .input_data  ( input_data ),
         // Outputs
         .output_data ( data_source_0_output_data ) 
         );

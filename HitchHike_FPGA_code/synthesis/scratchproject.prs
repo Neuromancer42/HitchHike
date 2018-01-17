@@ -7,14 +7,14 @@ add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/data_source.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/dbpsk_modulator.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/demodulator.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/mac.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/main_clock.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/modulator.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/smartgen/pll_core/pll_core.v"
+add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/randgen.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/ten_mhz_clock.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/two_mhz_clock.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/whitening.v"
-add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/mac.v"
-add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/hdl/randgen.v"
 add_file -verilog "C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/component/work/top/top.v"
 
 

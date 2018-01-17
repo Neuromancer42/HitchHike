@@ -19,16 +19,21 @@ input  output_signal_c;
         \counter[6]_net_1 , \counter[7]_net_1 , \counter[5]_net_1 , 
         \counter[1]_net_1 , \counter[0]_net_1 , \counter[4]_net_1 , 
         \counter[13]_net_1 , \counter[9]_net_1 , \counter[10]_net_1 , 
-        \counter[15]_net_1 , \counter[8]_net_1 , N_74, counter_c13, 
-        counter_n14, counter_n13, counter_c12, counter_n2, 
-        counter_n2_tz, counter_n3, counter_c2, counter_n4, counter_c3, 
+        \counter[15]_net_1 , \counter[8]_net_1 , counter_n2, 
+        counter_c1, counter_n3, counter_c2, counter_n4, counter_c3, 
         counter_n5, counter_c4, counter_n6, counter_c5, counter_n7, 
         counter_c6, counter_n8, counter_c7, counter_n9, counter_c8, 
         counter_n10, counter_c9, counter_n11, counter_c10, counter_n12, 
-        counter_c11, counter_n15, counter_n0, counter_n1, GND, VCC;
+        counter_c11, counter_n13, counter_c12, counter_n14, 
+        counter_c13, N_75, counter_n0, counter_n1, counter_n15, GND, 
+        VCC;
     
+    NOR2A \counter_RNI4TD3[1]  (.A(\counter[5]_net_1 ), .B(
+        \counter[1]_net_1 ), .Y(counter19_5));
     XA1 \counter_RNO[12]  (.A(\counter[12]_net_1 ), .B(counter_c11), 
         .C(counter_0_sqmuxa), .Y(counter_n12));
+    NOR3C \counter_RNIKOND[1]  (.A(counter19_5), .B(counter19_4), .C(
+        counter19_11), .Y(counter19_13));
     DFN1C0 \counter[2]  (.D(counter_n2), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[2]_net_1 ));
     NOR2B \counter_RNILJI8[4]  (.A(counter_c3), .B(\counter[4]_net_1 ), 
@@ -44,8 +49,8 @@ input  output_signal_c;
     XA1 \counter_RNO[4]  (.A(\counter[4]_net_1 ), .B(counter_c3), .C(
         counter_0_sqmuxa), .Y(counter_n4));
     VCC VCC_i (.Y(VCC));
-    NOR3C \counter_RNIGL45[2]  (.A(\counter[1]_net_1 ), .B(
-        \counter[0]_net_1 ), .C(\counter[2]_net_1 ), .Y(counter_c2));
+    NOR2B \counter_RNIGL45[2]  (.A(counter_c1), .B(\counter[2]_net_1 ), 
+        .Y(counter_c2));
     NOR3A \counter_RNIE0S6[2]  (.A(counter19_7), .B(\counter[3]_net_1 )
         , .C(\counter[2]_net_1 ), .Y(counter19_11));
     DFN1C0 \counter[8]  (.D(counter_n8), .CLK(clock_out), .CLR(reset_c)
@@ -62,7 +67,7 @@ input  output_signal_c;
         reset_c), .Q(\counter[14]_net_1 ));
     XA1 \counter_RNO[8]  (.A(\counter[8]_net_1 ), .B(counter_c7), .C(
         counter_0_sqmuxa), .Y(counter_n8));
-    XA1 \counter_RNO[14]  (.A(counter_c13), .B(\counter[14]_net_1 ), 
+    XA1 \counter_RNO[14]  (.A(\counter[14]_net_1 ), .B(counter_c13), 
         .C(counter_0_sqmuxa), .Y(counter_n14));
     XA1 \counter_RNO[11]  (.A(\counter[11]_net_1 ), .B(counter_c10), 
         .C(counter_0_sqmuxa), .Y(counter_n11));
@@ -74,34 +79,28 @@ input  output_signal_c;
         \counter[13]_net_1 ), .Y(counter_c13));
     NOR2 \counter_RNI794H[13]  (.A(\counter[13]_net_1 ), .B(
         \counter[14]_net_1 ), .Y(counter19_3));
-    NOR2B \counter_RNO[2]  (.A(counter_0_sqmuxa), .B(counter_n2_tz), 
-        .Y(counter_n2));
+    XA1 \counter_RNO[2]  (.A(\counter[2]_net_1 ), .B(counter_c1), .C(
+        counter_0_sqmuxa), .Y(counter_n2));
     GND GND_i (.Y(GND));
     XA1 \counter_RNO[5]  (.A(\counter[5]_net_1 ), .B(counter_c4), .C(
         counter_0_sqmuxa), .Y(counter_n5));
     XA1 \counter_RNO[3]  (.A(\counter[3]_net_1 ), .B(counter_c2), .C(
         counter_0_sqmuxa), .Y(counter_n3));
-    NOR2A \counter_RNI4TD3[5]  (.A(\counter[5]_net_1 ), .B(
-        \counter[1]_net_1 ), .Y(counter19_5));
     DFN1C0 \counter[12]  (.D(counter_n12), .CLK(clock_out), .CLR(
         reset_c), .Q(\counter[12]_net_1 ));
     DFN1C0 \counter[1]  (.D(counter_n1), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[1]_net_1 ));
-    AX1C \counter_RNO_0[2]  (.A(\counter[1]_net_1 ), .B(
-        \counter[0]_net_1 ), .C(\counter[2]_net_1 ), .Y(counter_n2_tz));
     NOR2B \counter_RNIKOND[7]  (.A(counter_c6), .B(\counter[7]_net_1 ), 
         .Y(counter_c7));
     NOR2B \counter_RNIUL0C[6]  (.A(counter_c5), .B(\counter[6]_net_1 ), 
         .Y(counter_c6));
     DFN1C0 \counter[3]  (.D(counter_n3), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[3]_net_1 ));
-    NOR2B \counter_RNO_1[15]  (.A(\counter[14]_net_1 ), .B(
-        counter_0_sqmuxa), .Y(counter_31_0));
+    NOR2B \counter_RNO_1[15]  (.A(counter_0_sqmuxa), .B(
+        \counter[15]_net_1 ), .Y(N_75));
     XA1 \counter_RNO[6]  (.A(\counter[6]_net_1 ), .B(counter_c5), .C(
         counter_0_sqmuxa), .Y(counter_n6));
-    AOI1B \counter_RNIKG3I2[2]  (.A(counter19_13), .B(counter19_12), 
-        .C(output_signal_c), .Y(counter_0_sqmuxa));
-    XA1 \counter_RNO[13]  (.A(counter_c12), .B(\counter[13]_net_1 ), 
+    XA1 \counter_RNO[13]  (.A(\counter[13]_net_1 ), .B(counter_c12), 
         .C(counter_0_sqmuxa), .Y(counter_n13));
     NOR2B \counter_RNIBSEF[8]  (.A(counter_c7), .B(\counter[8]_net_1 ), 
         .Y(counter_c8));
@@ -115,18 +114,18 @@ input  output_signal_c;
         \counter[7]_net_1 ), .Y(counter19_7));
     DFN1C0 \counter[11]  (.D(counter_n11), .CLK(clock_out), .CLR(
         reset_c), .Q(\counter[11]_net_1 ));
-    NOR3C \counter_RNIKOND[2]  (.A(counter19_5), .B(counter19_4), .C(
-        counter19_11), .Y(counter19_13));
     NOR2B \counter_RNI2KR6[3]  (.A(counter_c2), .B(\counter[3]_net_1 ), 
         .Y(counter_c3));
     NOR2 \counter_RNIS99A[15]  (.A(\counter[15]_net_1 ), .B(
         \counter[8]_net_1 ), .Y(counter19_0));
-    NOR2B \counter_RNO_0[15]  (.A(counter_31_0), .B(counter_c13), .Y(
-        N_74));
+    NOR2B \counter_RNO_0[15]  (.A(\counter[14]_net_1 ), .B(
+        counter_0_sqmuxa), .Y(counter_31_0));
     NOR3A \counter_RNIAE821[11]  (.A(counter19_3), .B(
         \counter[12]_net_1 ), .C(\counter[11]_net_1 ), .Y(counter19_9));
-    AX1C \counter_RNO[15]  (.A(counter_0_sqmuxa), .B(
-        \counter[15]_net_1 ), .C(N_74), .Y(counter_n15));
+    AX1C \counter_RNO[15]  (.A(counter_c13), .B(counter_31_0), .C(N_75)
+        , .Y(counter_n15));
+    NOR2B \counter_RNIVND3[1]  (.A(\counter[0]_net_1 ), .B(
+        \counter[1]_net_1 ), .Y(counter_c1));
     NOR2B \counter_RNI67SA1[12]  (.A(counter_c11), .B(
         \counter[12]_net_1 ), .Y(counter_c12));
     XA1 \counter_RNO[7]  (.A(\counter[7]_net_1 ), .B(counter_c6), .C(
@@ -139,6 +138,8 @@ input  output_signal_c;
         reset_c), .Q(\counter[13]_net_1 ));
     NOR2 \counter_RNIO59A[9]  (.A(\counter[9]_net_1 ), .B(
         \counter[10]_net_1 ), .Y(counter19_1));
+    AOI1B \counter_RNIKG3I2[1]  (.A(counter19_13), .B(counter19_12), 
+        .C(output_signal_c), .Y(counter_0_sqmuxa));
     DFN1C0 \counter[0]  (.D(counter_n0), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[0]_net_1 ));
     DFN1C0 \counter[10]  (.D(counter_n10), .CLK(clock_out), .CLR(
@@ -415,220 +416,201 @@ input  reset_c;
 input  clock_out;
 input  trigger_signal_c;
 
-    wire output_signal_1_sqmuxa_i_3, output_signal_1_sqmuxa_i_1, N_147, 
-        N_148, \clock_counter[14]_net_1 , \clock_counter[15]_net_1 , 
-        N_36_3, output_signal_1_sqmuxa_i_a2_2, 
-        output_signal_1_sqmuxa_i_a2_1, \clock_counter[9]_net_1 , 
-        \clock_counter[10]_net_1 , un6lto11, un6lto12, 
-        output_signal_1_sqmuxa_i_a2_0_2, \clock_counter[6]_net_1 , 
-        \clock_counter[8]_net_1 , output_signal_1_sqmuxa_i_a2_0_1, 
-        \clock_counter[4]_net_1 , \clock_counter[5]_net_1 , 
-        counter_n1_i_0, \counter[0]_net_1 , \counter[1]_net_1 , 
-        output_signal_1_sqmuxa_i_a2_3_0, 
-        output_signal_1_sqmuxa_i_a2_2_0, un6lto7, 
-        clock_counterlde_0_a2_1, \counter[4]_net_1 , 
-        \counter[5]_net_1 , counter_0_sqmuxa_i_a2_0, N_123_1, 
-        output_signal_1_sqmuxa_i_o2_0, \clock_counter[3]_net_1 , 
-        \clock_counter[2]_net_1 , N_19, N_53, N_21, N_43, N_27, N_40, 
-        N_29, N_39, N_31, N_51, N_55, N_36, N_146, N_145, N_47, N_45, 
-        N_150, N_17, N_46, N_137, N_25, N_41, N_23, N_42, N_151, 
-        \counter[3]_net_1 , \counter[2]_net_1 , N_5, counter_n5, 
-        counter_44_0, N_8, counter_n4, counter_c3, counter_n3, 
-        counter_c2, counter_n2, counter_c1, N_144, 
-        \clock_counter[0]_net_1 , \clock_counter[1]_net_1 , 
-        \clock_counter[13]_net_1 , N_91, N_52, N_61, N_50, N_49, N_48, 
-        clock_counter_n9, clock_counter_n10, clock_counter_n11, 
-        clock_counter_n12, clock_counter_n13, clock_counter_n14, 
-        clock_counter_n15, counter_n0, clock_countere, GND, VCC;
+    wire output_signal_1_sqmuxa_0_a2_10, output_signal_1_sqmuxa_0_a2_2, 
+        output_signal_1_sqmuxa_0_a2_1, output_signal_1_sqmuxa_0_a2_8, 
+        output_signal_1_sqmuxa_0_a2_9, output_signal_1_sqmuxa_0_a2_0, 
+        N_53_1, output_signal_1_sqmuxa_0_a2_5, 
+        output_signal_1_sqmuxa_0_a2_4, \clock_counter[11]_net_1 , 
+        \clock_counter[12]_net_1 , \clock_counter[10]_net_1 , 
+        \clock_counter[9]_net_1 , \clock_counter[14]_net_1 , 
+        \clock_counter[13]_net_1 , \clock_counter[8]_net_1 , 
+        \clock_counter[7]_net_1 , \clock_counter[6]_net_1 , 
+        \clock_counter[5]_net_1 , \clock_counter[4]_net_1 , 
+        \clock_counter[3]_net_1 , counter_0_sqmuxa_i_a2_1, 
+        \counter[0]_net_1 , \counter[5]_net_1 , \counter[4]_net_1 , 
+        clock_counterlde_0_a2_1, N_133_1, \counter[3]_net_1 , 
+        \counter[2]_net_1 , \counter[1]_net_1 , N_18, N_38, N_16, N_40, 
+        N_128, N_14, N_12, N_41, output_signal_1_sqmuxa, N_46, N_26, 
+        un5lto0, un5lto1, N_32, N_24, un6lto2, N_35, N_22, N_36, N_20, 
+        N_130, counter_n5, counter_44_0, counter_n4, counter_c3, 
+        counter_n3, counter_c2, counter_n2, counter_c1, clock_countere, 
+        counter_n1, counter_n0, \clock_counter[15]_net_1 , N_50, N_48, 
+        N_47, N_45, N_44, N_42, clock_counter_n11, clock_counter_n12, 
+        clock_counter_n13, clock_counter_n14, clock_counter_n15, N_43, 
+        clock_counter_n9, clock_counter_n10, N_132, GND, VCC;
     
-    OR2 \clock_counter_RNIJ3G2[2]  (.A(\clock_counter[3]_net_1 ), .B(
-        \clock_counter[2]_net_1 ), .Y(output_signal_1_sqmuxa_i_o2_0));
-    DFN1E1C0 \clock_counter[6]  (.D(N_21), .CLK(clock_out), .CLR(
+    DFN1E1C0 \clock_counter[6]  (.D(N_16), .CLK(clock_out), .CLR(
         reset_c), .E(clock_countere), .Q(\clock_counter[6]_net_1 ));
-    XA1A \clock_counter_RNO[4]  (.A(\clock_counter[4]_net_1 ), .B(N_41)
-        , .C(trigger_signal_c), .Y(N_25));
+    NOR3A \clock_counter_RNO[4]  (.A(N_38), .B(N_130), .C(N_32), .Y(
+        N_20));
     NOR2B \counter_RNINTKF1[2]  (.A(counter_c1), .B(\counter[2]_net_1 )
         , .Y(counter_c2));
-    DFN1E1C0 \clock_counter[3]  (.D(N_27), .CLK(clock_out), .CLR(
+    DFN1E1C0 \clock_counter[3]  (.D(N_22), .CLK(clock_out), .CLR(
         reset_c), .E(clock_countere), .Q(\clock_counter[3]_net_1 ));
-    NOR3 \counter_RNIT3LF1[5]  (.A(\counter[4]_net_1 ), .B(
-        \counter[5]_net_1 ), .C(\counter[0]_net_1 ), .Y(
-        clock_counterlde_0_a2_1));
-    DFN1E1C0 \clock_counter[4]  (.D(N_25), .CLK(clock_out), .CLR(
+    NOR3C \counter_RNIT3LF1[5]  (.A(\counter[0]_net_1 ), .B(
+        \counter[5]_net_1 ), .C(\counter[4]_net_1 ), .Y(
+        counter_0_sqmuxa_i_a2_1));
+    DFN1E1C0 \clock_counter[4]  (.D(N_20), .CLK(clock_out), .CLR(
         reset_c), .E(clock_countere), .Q(\clock_counter[4]_net_1 ));
-    DFN1E1C0 \clock_counter[8]  (.D(N_17), .CLK(clock_out), .CLR(
+    DFN1E1C0 \clock_counter[8]  (.D(N_12), .CLK(clock_out), .CLR(
         reset_c), .E(clock_countere), .Q(\clock_counter[8]_net_1 ));
     DFN1C0 \counter[2]  (.D(counter_n2), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[2]_net_1 ));
-    DFN1E1C0 \clock_counter[1]  (.D(N_31), .CLK(clock_out), .CLR(
-        reset_c), .E(clock_countere), .Q(\clock_counter[1]_net_1 ));
-    DFN1E1C0 \clock_counter[0]  (.D(N_144), .CLK(clock_out), .CLR(
-        reset_c), .E(clock_countere), .Q(\clock_counter[0]_net_1 ));
-    NOR2A output_signal_RNO_7 (.A(output_signal_1_sqmuxa_i_a2_3_0), .B(
-        N_55), .Y(N_150));
-    OR2A \clock_counter_RNI6GO8[6]  (.A(\clock_counter[6]_net_1 ), .B(
-        N_43), .Y(N_53));
-    OR2A \clock_counter_RNI2305[3]  (.A(\clock_counter[3]_net_1 ), .B(
-        N_40), .Y(N_41));
-    NOR2A \counter_RNO[0]  (.A(trigger_signal_c), .B(
-        \counter[0]_net_1 ), .Y(counter_n0));
-    OR2A \clock_counter_RNI41VU[11]  (.A(un6lto11), .B(N_48), .Y(N_49));
+    OR2A \clock_counter_RNIJ6HC[9]  (.A(\clock_counter[9]_net_1 ), .B(
+        N_42), .Y(N_43));
+    DFN1E1C0 \clock_counter[1]  (.D(N_26), .CLK(clock_out), .CLR(
+        reset_c), .E(clock_countere), .Q(un5lto1));
+    DFN1E1C0 \clock_counter[0]  (.D(N_132), .CLK(clock_out), .CLR(
+        reset_c), .E(clock_countere), .Q(un5lto0));
+    NOR2A output_signal_RNO_7 (.A(trigger_signal_c), .B(
+        \clock_counter[15]_net_1 ), .Y(N_53_1));
+    OR3B \clock_counter_RNI6GO8[6]  (.A(\clock_counter[5]_net_1 ), .B(
+        \clock_counter[6]_net_1 ), .C(N_38), .Y(N_40));
+    NOR2 \counter_RNO[0]  (.A(\counter[0]_net_1 ), .B(N_32), .Y(
+        counter_n0));
+    OR2A \clock_counter_RNI41VU[11]  (.A(\clock_counter[11]_net_1 ), 
+        .B(N_44), .Y(N_45));
     XA1B \counter_RNO[4]  (.A(\counter[4]_net_1 ), .B(counter_c3), .C(
-        N_8), .Y(counter_n4));
-    OR2A \clock_counter_RNID686[4]  (.A(\clock_counter[4]_net_1 ), .B(
-        N_41), .Y(N_42));
+        N_32), .Y(counter_n4));
+    OR3B \clock_counter_RNID686[4]  (.A(\clock_counter[3]_net_1 ), .B(
+        \clock_counter[4]_net_1 ), .C(N_36), .Y(N_38));
     VCC VCC_i (.Y(VCC));
-    NOR2A \clock_counter_RNO[0]  (.A(trigger_signal_c), .B(
-        \clock_counter[0]_net_1 ), .Y(N_144));
-    OR2 \clock_counter_RNI3U8B[6]  (.A(N_45), .B(N_43), .Y(N_46));
-    XAI1 \counter_RNO_0[1]  (.A(\counter[0]_net_1 ), .B(
-        \counter[1]_net_1 ), .C(trigger_signal_c), .Y(counter_n1_i_0));
-    AOI1 \counter_RNO[1]  (.A(N_123_1), .B(N_151), .C(counter_n1_i_0), 
-        .Y(N_5));
+    NOR2 \clock_counter_RNO[0]  (.A(un5lto0), .B(N_32), .Y(N_132));
+    XA1B \counter_RNO[1]  (.A(\counter[1]_net_1 ), .B(
+        \counter[0]_net_1 ), .C(N_32), .Y(counter_n1));
     DFN1E1C0 \clock_counter[9]  (.D(clock_counter_n9), .CLK(clock_out), 
         .CLR(reset_c), .E(clock_countere), .Q(\clock_counter[9]_net_1 )
         );
     DFN1E1C0 \clock_counter[15]  (.D(clock_counter_n15), .CLK(
         clock_out), .CLR(reset_c), .E(clock_countere), .Q(
         \clock_counter[15]_net_1 ));
-    XA1A \clock_counter_RNO[12]  (.A(un6lto12), .B(N_49), .C(
-        trigger_signal_c), .Y(clock_counter_n12));
+    AO1B \counter_RNISQHA3_0[5]  (.A(counter_0_sqmuxa_i_a2_1), .B(
+        N_133_1), .C(trigger_signal_c), .Y(N_32));
+    XA1A \clock_counter_RNO[12]  (.A(\clock_counter[12]_net_1 ), .B(
+        N_45), .C(trigger_signal_c), .Y(clock_counter_n12));
     XA1A \clock_counter_RNO[13]  (.A(\clock_counter[13]_net_1 ), .B(
-        N_50), .C(trigger_signal_c), .Y(clock_counter_n13));
-    AO1B \counter_RNISQHA3[0]  (.A(counter_0_sqmuxa_i_a2_0), .B(N_151), 
-        .C(trigger_signal_c), .Y(N_8));
-    OA1 output_signal_RNO_2 (.A(N_45), .B(N_150), .C(
-        output_signal_1_sqmuxa_i_a2_2), .Y(N_145));
+        N_47), .C(trigger_signal_c), .Y(clock_counter_n13));
+    AO16 output_signal_RNO_2 (.A(un5lto1), .B(un5lto0), .C(un6lto2), 
+        .Y(N_46));
     XA1A \clock_counter_RNO[14]  (.A(\clock_counter[14]_net_1 ), .B(
-        N_52), .C(trigger_signal_c), .Y(clock_counter_n14));
-    DFN1E1C0 \clock_counter[5]  (.D(N_23), .CLK(clock_out), .CLR(
+        N_48), .C(trigger_signal_c), .Y(clock_counter_n14));
+    DFN1E1C0 \clock_counter[5]  (.D(N_18), .CLK(clock_out), .CLR(
         reset_c), .E(clock_countere), .Q(\clock_counter[5]_net_1 ));
-    OR2A output_signal_RNO_10 (.A(trigger_signal_c), .B(
-        \clock_counter[13]_net_1 ), .Y(N_36_3));
-    OR3 output_signal_RNO_4 (.A(\clock_counter[14]_net_1 ), .B(
-        \clock_counter[15]_net_1 ), .C(N_36_3), .Y(
-        output_signal_1_sqmuxa_i_1));
-    XA1A \clock_counter_RNO[5]  (.A(\clock_counter[5]_net_1 ), .B(N_42)
-        , .C(trigger_signal_c), .Y(N_23));
-    OR2 \clock_counter_RNIFVF2_0[1]  (.A(\clock_counter[1]_net_1 ), .B(
-        \clock_counter[0]_net_1 ), .Y(N_51));
-    NOR2B \counter_RNI1ROV[5]  (.A(\counter[5]_net_1 ), .B(
-        \counter[4]_net_1 ), .Y(N_123_1));
+    NOR2 output_signal_RNO_4 (.A(\clock_counter[6]_net_1 ), .B(
+        \clock_counter[5]_net_1 ), .Y(output_signal_1_sqmuxa_0_a2_1));
+    XA1A \clock_counter_RNO[5]  (.A(\clock_counter[5]_net_1 ), .B(N_38)
+        , .C(trigger_signal_c), .Y(N_18));
     OR2A \clock_counter_RNO_0[15]  (.A(\clock_counter[14]_net_1 ), .B(
-        N_52), .Y(N_91));
-    NOR2 output_signal_RNO_12 (.A(\clock_counter[5]_net_1 ), .B(
-        \clock_counter[4]_net_1 ), .Y(output_signal_1_sqmuxa_i_a2_3_0));
+        N_48), .Y(N_50));
     DFN1C0 \counter[4]  (.D(counter_n4), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[4]_net_1 ));
     DFN1C0 \counter[5]  (.D(counter_n5), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[5]_net_1 ));
-    OR2 \clock_counter_RNI2305[2]  (.A(output_signal_1_sqmuxa_i_o2_0), 
-        .B(N_51), .Y(N_55));
-    XA1A \clock_counter_RNO[10]  (.A(\clock_counter[10]_net_1 ), .B(
-        N_61), .C(trigger_signal_c), .Y(clock_counter_n10));
+    XA1C \clock_counter_RNO[10]  (.A(\clock_counter[10]_net_1 ), .B(
+        N_43), .C(N_32), .Y(clock_counter_n10));
     XA1B \counter_RNO[2]  (.A(\counter[2]_net_1 ), .B(counter_c1), .C(
-        N_8), .Y(counter_n2));
-    OR2 \clock_counter_RNIB3OL[10]  (.A(N_47), .B(N_46), .Y(N_48));
-    NOR2B output_signal_RNO_5 (.A(un6lto11), .B(un6lto12), .Y(N_147));
-    NOR3 output_signal_RNO (.A(N_146), .B(output_signal_1_sqmuxa_i_3), 
-        .C(N_145), .Y(N_36));
+        N_32), .Y(counter_n2));
+    OR2A \clock_counter_RNIB3OL[10]  (.A(\clock_counter[10]_net_1 ), 
+        .B(N_43), .Y(N_44));
+    NOR3A output_signal_RNO_5 (.A(output_signal_1_sqmuxa_0_a2_4), .B(
+        \clock_counter[11]_net_1 ), .C(\clock_counter[12]_net_1 ), .Y(
+        output_signal_1_sqmuxa_0_a2_8));
+    NOR3C output_signal_RNO (.A(output_signal_1_sqmuxa_0_a2_10), .B(
+        output_signal_1_sqmuxa_0_a2_9), .C(N_46), .Y(
+        output_signal_1_sqmuxa));
     GND GND_i (.Y(GND));
+    NOR3 \counter_RNIT3LF1_0[5]  (.A(\counter[0]_net_1 ), .B(
+        \counter[5]_net_1 ), .C(\counter[4]_net_1 ), .Y(
+        clock_counterlde_0_a2_1));
     XA1B \counter_RNO[5]  (.A(\counter[5]_net_1 ), .B(counter_44_0), 
-        .C(N_8), .Y(counter_n5));
+        .C(N_32), .Y(counter_n5));
     XA1B \counter_RNO[3]  (.A(\counter[3]_net_1 ), .B(counter_c2), .C(
-        N_8), .Y(counter_n3));
+        N_32), .Y(counter_n3));
     NOR2B \counter_RNIPIOV[1]  (.A(\counter[1]_net_1 ), .B(
         \counter[0]_net_1 ), .Y(counter_c1));
-    OR2A \clock_counter_RNO_0[10]  (.A(\clock_counter[9]_net_1 ), .B(
-        N_46), .Y(N_61));
-    OR2B \clock_counter_RNIFVF2[1]  (.A(\clock_counter[1]_net_1 ), .B(
-        \clock_counter[0]_net_1 ), .Y(N_39));
-    NOR2B output_signal_RNO_11 (.A(\clock_counter[8]_net_1 ), .B(
-        un6lto7), .Y(output_signal_1_sqmuxa_i_a2_2_0));
-    DFN1C0 \counter[1]  (.D(N_5), .CLK(clock_out), .CLR(reset_c), .Q(
-        \counter[1]_net_1 ));
-    XA1A \clock_counter_RNO[3]  (.A(\clock_counter[3]_net_1 ), .B(N_40)
-        , .C(trigger_signal_c), .Y(N_27));
-    DFN1E1C0 \clock_counter[2]  (.D(N_29), .CLK(clock_out), .CLR(
-        reset_c), .E(clock_countere), .Q(\clock_counter[2]_net_1 ));
-    OR3 output_signal_RNO_1 (.A(output_signal_1_sqmuxa_i_1), .B(N_147), 
-        .C(N_148), .Y(output_signal_1_sqmuxa_i_3));
+    OR2A \clock_counter_RNI3U8B[8]  (.A(\clock_counter[8]_net_1 ), .B(
+        N_41), .Y(N_42));
+    OR2B \clock_counter_RNIFVF2[1]  (.A(un5lto1), .B(un5lto0), .Y(N_35)
+        );
+    OR2A \clock_counter_RNIKM0A[7]  (.A(\clock_counter[7]_net_1 ), .B(
+        N_40), .Y(N_41));
+    DFN1C0 \counter[1]  (.D(counter_n1), .CLK(clock_out), .CLR(reset_c)
+        , .Q(\counter[1]_net_1 ));
+    XA1C \clock_counter_RNO[3]  (.A(\clock_counter[3]_net_1 ), .B(N_36)
+        , .C(N_32), .Y(N_22));
+    DFN1E1C0 \clock_counter[2]  (.D(N_24), .CLK(clock_out), .CLR(
+        reset_c), .E(clock_countere), .Q(un6lto2));
+    NOR3C output_signal_RNO_1 (.A(output_signal_1_sqmuxa_0_a2_0), .B(
+        N_53_1), .C(output_signal_1_sqmuxa_0_a2_5), .Y(
+        output_signal_1_sqmuxa_0_a2_9));
     NOR2B \counter_RNO_0[5]  (.A(\counter[4]_net_1 ), .B(counter_c3), 
         .Y(counter_44_0));
     DFN1C0 \counter[3]  (.D(counter_n3), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[3]_net_1 ));
-    AO1B \counter_RNISQHA3[5]  (.A(clock_counterlde_0_a2_1), .B(N_151), 
-        .C(trigger_signal_c), .Y(clock_countere));
+    AO1B \counter_RNISQHA3[5]  (.A(clock_counterlde_0_a2_1), .B(
+        N_133_1), .C(trigger_signal_c), .Y(clock_countere));
     NOR3 \counter_RNIQ0LF1[1]  (.A(\counter[3]_net_1 ), .B(
-        \counter[2]_net_1 ), .C(\counter[1]_net_1 ), .Y(N_151));
-    DFN1E1C0 \clock_counter[7]  (.D(N_19), .CLK(clock_out), .CLR(
-        reset_c), .E(clock_countere), .Q(un6lto7));
+        \counter[2]_net_1 ), .C(\counter[1]_net_1 ), .Y(N_133_1));
+    DFN1E1C0 \clock_counter[7]  (.D(N_14), .CLK(clock_out), .CLR(
+        reset_c), .E(clock_countere), .Q(\clock_counter[7]_net_1 ));
     DFN1E1C0 \clock_counter[14]  (.D(clock_counter_n14), .CLK(
         clock_out), .CLR(reset_c), .E(clock_countere), .Q(
         \clock_counter[14]_net_1 ));
-    XA1A \clock_counter_RNO[7]  (.A(un6lto7), .B(N_53), .C(
-        trigger_signal_c), .Y(N_19));
-    NOR3A output_signal_RNO_8 (.A(output_signal_1_sqmuxa_i_a2_1), .B(
-        \clock_counter[9]_net_1 ), .C(\clock_counter[10]_net_1 ), .Y(
-        output_signal_1_sqmuxa_i_a2_2));
-    NOR2B \counter_RNIT3LF1[0]  (.A(\counter[0]_net_1 ), .B(N_123_1), 
-        .Y(counter_0_sqmuxa_i_a2_0));
-    OA1C \clock_counter_RNO_0[8]  (.A(un6lto7), .B(N_53), .C(
-        \clock_counter[8]_net_1 ), .Y(N_137));
-    OR2A \clock_counter_RNIO0O3[2]  (.A(\clock_counter[2]_net_1 ), .B(
-        N_39), .Y(N_40));
-    OR3C \clock_counter_RNIAJO3[6]  (.A(\clock_counter[6]_net_1 ), .B(
-        \clock_counter[8]_net_1 ), .C(un6lto7), .Y(N_45));
+    XA1A \clock_counter_RNO[7]  (.A(\clock_counter[7]_net_1 ), .B(N_40)
+        , .C(trigger_signal_c), .Y(N_14));
+    NOR2 output_signal_RNO_8 (.A(\clock_counter[10]_net_1 ), .B(
+        \clock_counter[9]_net_1 ), .Y(output_signal_1_sqmuxa_0_a2_5));
+    OR2A \clock_counter_RNIO0O3[2]  (.A(un6lto2), .B(N_35), .Y(N_36));
     DFN1E1C0 \clock_counter[12]  (.D(clock_counter_n12), .CLK(
-        clock_out), .CLR(reset_c), .E(clock_countere), .Q(un6lto12));
-    NOR3B output_signal_RNO_0 (.A(N_55), .B(
-        output_signal_1_sqmuxa_i_a2_0_2), .C(N_47), .Y(N_146));
-    NOR3B \clock_counter_RNO[8]  (.A(N_46), .B(trigger_signal_c), .C(
-        N_137), .Y(N_17));
-    NOR3C output_signal_RNO_9 (.A(\clock_counter[4]_net_1 ), .B(
-        \clock_counter[5]_net_1 ), .C(un6lto12), .Y(
-        output_signal_1_sqmuxa_i_a2_0_1));
-    DFN1E1C0 output_signal (.D(N_36), .CLK(clock_out), .CLR(reset_c), 
-        .E(clock_countere), .Q(output_signal_c));
-    OR2A \clock_counter_RNIUV581[12]  (.A(un6lto12), .B(N_49), .Y(N_50)
-        );
-    OR2A \clock_counter_RNIPAG7[5]  (.A(\clock_counter[5]_net_1 ), .B(
-        N_42), .Y(N_43));
+        clock_out), .CLR(reset_c), .E(clock_countere), .Q(
+        \clock_counter[12]_net_1 ));
+    NOR3C output_signal_RNO_0 (.A(output_signal_1_sqmuxa_0_a2_2), .B(
+        output_signal_1_sqmuxa_0_a2_1), .C(
+        output_signal_1_sqmuxa_0_a2_8), .Y(
+        output_signal_1_sqmuxa_0_a2_10));
+    XA1A \clock_counter_RNO[8]  (.A(\clock_counter[8]_net_1 ), .B(N_41)
+        , .C(trigger_signal_c), .Y(N_12));
+    NOR2 output_signal_RNO_9 (.A(\clock_counter[14]_net_1 ), .B(
+        \clock_counter[13]_net_1 ), .Y(output_signal_1_sqmuxa_0_a2_4));
+    DFN1E1C0 output_signal (.D(output_signal_1_sqmuxa), .CLK(clock_out)
+        , .CLR(reset_c), .E(clock_countere), .Q(output_signal_c));
+    OR2A \clock_counter_RNIUV581[12]  (.A(\clock_counter[12]_net_1 ), 
+        .B(N_45), .Y(N_47));
     DFN1E1C0 \clock_counter[13]  (.D(clock_counter_n13), .CLK(
         clock_out), .CLR(reset_c), .E(clock_countere), .Q(
         \clock_counter[13]_net_1 ));
-    XA1A \clock_counter_RNO[9]  (.A(\clock_counter[9]_net_1 ), .B(N_46)
-        , .C(trigger_signal_c), .Y(clock_counter_n9));
-    XA1A \clock_counter_RNO[11]  (.A(un6lto11), .B(N_48), .C(
-        trigger_signal_c), .Y(clock_counter_n11));
+    OA1C \clock_counter_RNO_0[4]  (.A(\clock_counter[3]_net_1 ), .B(
+        N_36), .C(\clock_counter[4]_net_1 ), .Y(N_130));
+    XA1C \clock_counter_RNO[9]  (.A(\clock_counter[9]_net_1 ), .B(N_42)
+        , .C(N_32), .Y(clock_counter_n9));
+    XA1A \clock_counter_RNO[11]  (.A(\clock_counter[11]_net_1 ), .B(
+        N_44), .C(trigger_signal_c), .Y(clock_counter_n11));
     DFN1E1C0 \clock_counter[11]  (.D(clock_counter_n11), .CLK(
-        clock_out), .CLR(reset_c), .E(clock_countere), .Q(un6lto11));
-    NOR3C output_signal_RNO_3 (.A(\clock_counter[6]_net_1 ), .B(
-        \clock_counter[8]_net_1 ), .C(output_signal_1_sqmuxa_i_a2_0_1), 
-        .Y(output_signal_1_sqmuxa_i_a2_0_2));
-    NOR3C \clock_counter_RNO[1]  (.A(N_51), .B(trigger_signal_c), .C(
-        N_39), .Y(N_31));
+        clock_out), .CLR(reset_c), .E(clock_countere), .Q(
+        \clock_counter[11]_net_1 ));
+    NOR2 output_signal_RNO_3 (.A(\clock_counter[8]_net_1 ), .B(
+        \clock_counter[7]_net_1 ), .Y(output_signal_1_sqmuxa_0_a2_2));
+    OA1C \clock_counter_RNO_0[6]  (.A(\clock_counter[5]_net_1 ), .B(
+        N_38), .C(\clock_counter[6]_net_1 ), .Y(N_128));
+    XA1B \clock_counter_RNO[1]  (.A(un5lto0), .B(un5lto1), .C(N_32), 
+        .Y(N_26));
     OR2A \clock_counter_RNIPVCH1[13]  (.A(\clock_counter[13]_net_1 ), 
-        .B(N_50), .Y(N_52));
-    NOR3B output_signal_RNO_6 (.A(output_signal_1_sqmuxa_i_a2_2_0), .B(
-        un6lto12), .C(N_47), .Y(N_148));
+        .B(N_47), .Y(N_48));
+    NOR2 output_signal_RNO_6 (.A(\clock_counter[4]_net_1 ), .B(
+        \clock_counter[3]_net_1 ), .Y(output_signal_1_sqmuxa_0_a2_0));
     XA1A \clock_counter_RNO[15]  (.A(\clock_counter[15]_net_1 ), .B(
-        N_91), .C(trigger_signal_c), .Y(clock_counter_n15));
+        N_50), .C(trigger_signal_c), .Y(clock_counter_n15));
     DFN1E1C0 \clock_counter[10]  (.D(clock_counter_n10), .CLK(
         clock_out), .CLR(reset_c), .E(clock_countere), .Q(
         \clock_counter[10]_net_1 ));
-    XA1A \clock_counter_RNO[2]  (.A(\clock_counter[2]_net_1 ), .B(N_39)
-        , .C(trigger_signal_c), .Y(N_29));
+    XA1C \clock_counter_RNO[2]  (.A(un6lto2), .B(N_35), .C(N_32), .Y(
+        N_24));
     NOR2B \counter_RNIM9HV1[3]  (.A(counter_c2), .B(\counter[3]_net_1 )
         , .Y(counter_c3));
     DFN1C0 \counter[0]  (.D(counter_n0), .CLK(clock_out), .CLR(reset_c)
         , .Q(\counter[0]_net_1 ));
-    XA1A \clock_counter_RNO[6]  (.A(N_43), .B(\clock_counter[6]_net_1 )
-        , .C(trigger_signal_c), .Y(N_21));
-    NOR2 output_signal_RNO_13 (.A(un6lto11), .B(un6lto12), .Y(
-        output_signal_1_sqmuxa_i_a2_1));
-    OR2B \clock_counter_RNI85FA[10]  (.A(\clock_counter[10]_net_1 ), 
-        .B(\clock_counter[9]_net_1 ), .Y(N_47));
+    NOR3B \clock_counter_RNO[6]  (.A(trigger_signal_c), .B(N_40), .C(
+        N_128), .Y(N_16));
     
 endmodule
 

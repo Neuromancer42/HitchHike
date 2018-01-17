@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-L1IGDRV
 
-# Mon Jan 15 11:20:55 2018
+# Wed Jan 17 19:58:43 2018
 
 #Implementation: synthesis
 
@@ -24,19 +24,17 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v" (library work)
+@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v" (library work)
+@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v" (library work)
-@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v" (library work)
-@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v" (library work)
 Verilog syntax check successful!
-
-Compiler output is up to date.  No re-compile necessary
-
+Options changed - recompiling
 Selecting top level module top
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
 
@@ -241,12 +239,12 @@ Selecting top level module top
 @N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":30:12:30:21|Input cur_scheme is unused.
 @N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":4:11:4:20|Input input_data is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 81MB peak: 88MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jan 15 11:20:55 2018
+# Wed Jan 17 19:58:44 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
@@ -257,17 +255,17 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jan 15 11:20:55 2018
+# Wed Jan 17 19:58:45 2018
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jan 15 11:20:55 2018
+# Wed Jan 17 19:58:45 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
@@ -279,12 +277,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jan 15 11:20:57 2018
+# Wed Jan 17 19:58:46 2018
 
 ###########################################################]
 Pre-mapping Report
 
-# Mon Jan 15 11:20:57 2018
+# Wed Jan 17 19:58:46 2018
 
 Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -358,12 +356,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Jan 15 11:20:58 2018
+# Wed Jan 17 19:58:47 2018
 
 ###########################################################]
 Map & Optimize Report
 
-# Mon Jan 15 11:20:58 2018
+# Wed Jan 17 19:58:47 2018
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -447,15 +445,15 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
 
 @N: BN115 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\component\work\top\top.v":309:10:309:20|Removing instance whitening_0 (in view: work.top(verilog)) of type view:work.whitening(verilog) because it does not drive other instances.
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
 
 @W: MO160 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\dbpsk_modulator.v":9:0:9:5|Register bit dbpsk_modulator_0.output_dbpsk (in view view:work.top(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
@@ -464,13 +462,13 @@ Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elaps
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
 Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
 High Fanout Net Report
@@ -483,7 +481,7 @@ reset_pad / Y                  61 : 61 asynchronous set/reset
 
 @N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
 Added 0 Buffers
@@ -491,7 +489,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
 
 
 
@@ -535,7 +533,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Jan 15 11:21:00 2018
+# Timing Report written on Wed Jan 17 19:58:49 2018
 #
 
 
@@ -557,12 +555,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 961.582
+Worst slack in design: 957.694
 
                                         Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                          Frequency     Frequency     Period        Period        Slack       Type         Group              
 --------------------------------------------------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock     1.0 MHz       26.0 MHz      1000.000      38.418        961.582     inferred     Inferred_clkgroup_0
+main_clock|clock_out_inferred_clock     1.0 MHz       23.6 MHz      1000.000      42.306        957.694     inferred     Inferred_clkgroup_0
 pll_core|GLA_inferred_clock             1.0 MHz       54.7 MHz      1000.000      18.284        981.716     inferred     Inferred_clkgroup_1
 ============================================================================================================================================
 
@@ -577,7 +575,7 @@ Clocks                                                                    |    r
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                             Ending                               |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock  main_clock|clock_out_inferred_clock  |  1000.000    961.582  |  No paths    -      |  No paths    -      |  No paths    -    
+main_clock|clock_out_inferred_clock  main_clock|clock_out_inferred_clock  |  1000.000    957.694  |  No paths    -      |  No paths    -      |  No paths    -    
 pll_core|GLA_inferred_clock          pll_core|GLA_inferred_clock          |  1000.000    981.716  |  No paths    -      |  No paths    -      |  No paths    -    
 ==================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -605,16 +603,16 @@ Starting Points with Worst Slack
 Instance                         Reference                               Type         Pin     Net                  Time        Slack  
                                  Clock                                                                                                
 --------------------------------------------------------------------------------------------------------------------------------------
-modulator_0.clock_counter[0]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[0]     1.395       961.582
-modulator_0.clock_counter[1]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[1]     1.395       962.659
-dbpsk_modulator_0.counter[0]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]           1.771       963.452
-dbpsk_modulator_0.counter[1]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[1]           1.771       964.025
-dbpsk_modulator_0.counter[2]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[2]           1.771       964.505
-modulator_0.clock_counter[2]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[2]     1.395       965.023
-dbpsk_modulator_0.counter[3]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[3]           1.771       966.702
-modulator_0.clock_counter[3]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[3]     1.395       967.504
-dbpsk_modulator_0.counter[4]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[4]           1.771       968.865
-modulator_0.clock_counter[4]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[4]     1.395       969.078
+modulator_0.clock_counter[0]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       un5lto0              1.395       957.694
+modulator_0.clock_counter[1]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       un5lto1              1.395       958.667
+modulator_0.clock_counter[2]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       un6lto2              1.395       961.031
+dbpsk_modulator_0.counter[0]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]           1.771       962.738
+dbpsk_modulator_0.counter[1]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[1]           1.771       963.373
+modulator_0.clock_counter[3]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[3]     1.395       963.895
+modulator_0.clock_counter[4]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[4]     1.395       964.564
+dbpsk_modulator_0.counter[2]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[2]           1.771       965.537
+dbpsk_modulator_0.counter[3]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[3]           1.771       967.700
+modulator_0.clock_counter[5]     main_clock|clock_out_inferred_clock     DFN1E1C0     Q       clock_counter[5]     1.395       968.544
 ======================================================================================================================================
 
 
@@ -625,16 +623,16 @@ Ending Points with Worst Slack
 Instance                          Reference                               Type         Pin     Net                   Time         Slack  
                                   Clock                                                                                                  
 -----------------------------------------------------------------------------------------------------------------------------------------
-modulator_0.clock_counter[15]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n15     998.705      961.582
-dbpsk_modulator_0.counter[15]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n15           998.705      963.452
-modulator_0.clock_counter[14]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n14     998.705      963.908
-dbpsk_modulator_0.counter[14]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n14           998.705      965.749
-modulator_0.clock_counter[13]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n13     998.705      966.389
-dbpsk_modulator_0.counter[13]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n13           998.705      967.913
-dbpsk_modulator_0.counter[12]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n12           998.622      968.777
-modulator_0.clock_counter[12]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n12     998.705      968.870
-dbpsk_modulator_0.counter[11]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n11           998.622      970.941
-modulator_0.clock_counter[11]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n11     998.705      971.350
+modulator_0.clock_counter[15]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n15     998.705      957.694
+modulator_0.clock_counter[14]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n14     998.705      960.020
+modulator_0.clock_counter[13]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n13     998.705      962.501
+dbpsk_modulator_0.counter[14]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n14           998.622      962.738
+dbpsk_modulator_0.counter[15]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n15           998.705      962.926
+dbpsk_modulator_0.counter[13]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n13           998.622      964.902
+modulator_0.clock_counter[12]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n12     998.705      964.981
+dbpsk_modulator_0.counter[12]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n12           998.622      967.065
+modulator_0.clock_counter[11]     main_clock|clock_out_inferred_clock     DFN1E1C0     D       clock_counter_n11     998.705      967.462
+dbpsk_modulator_0.counter[11]     main_clock|clock_out_inferred_clock     DFN1C0       D       counter_n11           998.622      969.228
 =========================================================================================================================================
 
 
@@ -649,11 +647,11 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         998.705
 
-    - Propagation time:                      37.124
+    - Propagation time:                      41.012
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     961.582
+    = Slack (critical) :                     957.694
 
-    Number of logic level(s):                12
+    Number of logic level(s):                13
     Starting point:                          modulator_0.clock_counter[0] / Q
     Ending point:                            modulator_0.clock_counter[15] / D
     The start point is clocked by            main_clock|clock_out_inferred_clock [rising] on pin CLK
@@ -663,46 +661,49 @@ Instance / Net                                          Pin      Pin            
 Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
 ---------------------------------------------------------------------------------------------------------
 modulator_0.clock_counter[0]               DFN1E1C0     Q        Out     1.395     1.395       -         
-clock_counter[0]                           Net          -        -       1.938     -           3         
-modulator_0.clock_counter_RNIFVF2[1]       OR2B         B        In      -         3.333       -         
-modulator_0.clock_counter_RNIFVF2[1]       OR2B         Y        Out     1.240     4.573       -         
-N_39                                       Net          -        -       1.938     -           3         
-modulator_0.clock_counter_RNIO0O3[2]       OR2A         B        In      -         6.511       -         
-modulator_0.clock_counter_RNIO0O3[2]       OR2A         Y        Out     1.554     8.064       -         
-N_40                                       Net          -        -       0.927     -           2         
-modulator_0.clock_counter_RNI2305[3]       OR2A         B        In      -         8.992       -         
-modulator_0.clock_counter_RNI2305[3]       OR2A         Y        Out     1.554     10.545      -         
+un5lto0                                    Net          -        -       2.844     -           4         
+modulator_0.clock_counter_RNIFVF2[1]       OR2B         B        In      -         4.239       -         
+modulator_0.clock_counter_RNIFVF2[1]       OR2B         Y        Out     1.240     5.479       -         
+N_35                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNIO0O3[2]       OR2A         B        In      -         6.407       -         
+modulator_0.clock_counter_RNIO0O3[2]       OR2A         Y        Out     1.554     7.960       -         
+N_36                                       Net          -        -       1.938     -           3         
+modulator_0.clock_counter_RNID686[4]       OR3B         C        In      -         9.898       -         
+modulator_0.clock_counter_RNID686[4]       OR3B         Y        Out     1.804     11.702      -         
+N_38                                       Net          -        -       2.844     -           4         
+modulator_0.clock_counter_RNI6GO8[6]       OR3B         C        In      -         14.546      -         
+modulator_0.clock_counter_RNI6GO8[6]       OR3B         Y        Out     1.804     16.350      -         
+N_40                                       Net          -        -       1.938     -           3         
+modulator_0.clock_counter_RNIKM0A[7]       OR2A         B        In      -         18.288      -         
+modulator_0.clock_counter_RNIKM0A[7]       OR2A         Y        Out     1.554     19.842      -         
 N_41                                       Net          -        -       0.927     -           2         
-modulator_0.clock_counter_RNID686[4]       OR2A         B        In      -         11.472      -         
-modulator_0.clock_counter_RNID686[4]       OR2A         Y        Out     1.554     13.026      -         
+modulator_0.clock_counter_RNI3U8B[8]       OR2A         B        In      -         20.769      -         
+modulator_0.clock_counter_RNI3U8B[8]       OR2A         Y        Out     1.554     22.322      -         
 N_42                                       Net          -        -       0.927     -           2         
-modulator_0.clock_counter_RNIPAG7[5]       OR2A         B        In      -         13.953      -         
-modulator_0.clock_counter_RNIPAG7[5]       OR2A         Y        Out     1.554     15.507      -         
-N_43                                       Net          -        -       1.938     -           3         
-modulator_0.clock_counter_RNI3U8B[6]       OR2          B        In      -         17.445      -         
-modulator_0.clock_counter_RNI3U8B[6]       OR2          Y        Out     1.554     18.998      -         
-N_46                                       Net          -        -       2.844     -           4         
-modulator_0.clock_counter_RNIB3OL[10]      OR2          B        In      -         21.842      -         
-modulator_0.clock_counter_RNIB3OL[10]      OR2          Y        Out     1.554     23.396      -         
+modulator_0.clock_counter_RNIJ6HC[9]       OR2A         B        In      -         23.250      -         
+modulator_0.clock_counter_RNIJ6HC[9]       OR2A         Y        Out     1.554     24.803      -         
+N_43                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNIB3OL[10]      OR2A         B        In      -         25.730      -         
+modulator_0.clock_counter_RNIB3OL[10]      OR2A         Y        Out     1.554     27.284      -         
+N_44                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNI41VU[11]      OR2A         B        In      -         28.211      -         
+modulator_0.clock_counter_RNI41VU[11]      OR2A         Y        Out     1.554     29.765      -         
+N_45                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNIUV581[12]     OR2A         B        In      -         30.692      -         
+modulator_0.clock_counter_RNIUV581[12]     OR2A         Y        Out     1.554     32.246      -         
+N_47                                       Net          -        -       0.927     -           2         
+modulator_0.clock_counter_RNIPVCH1[13]     OR2A         B        In      -         33.173      -         
+modulator_0.clock_counter_RNIPVCH1[13]     OR2A         Y        Out     1.554     34.726      -         
 N_48                                       Net          -        -       0.927     -           2         
-modulator_0.clock_counter_RNI41VU[11]      OR2A         B        In      -         24.323      -         
-modulator_0.clock_counter_RNI41VU[11]      OR2A         Y        Out     1.554     25.877      -         
-N_49                                       Net          -        -       0.927     -           2         
-modulator_0.clock_counter_RNIUV581[12]     OR2A         B        In      -         26.804      -         
-modulator_0.clock_counter_RNIUV581[12]     OR2A         Y        Out     1.554     28.358      -         
-N_50                                       Net          -        -       0.927     -           2         
-modulator_0.clock_counter_RNIPVCH1[13]     OR2A         B        In      -         29.285      -         
-modulator_0.clock_counter_RNIPVCH1[13]     OR2A         Y        Out     1.554     30.838      -         
-N_52                                       Net          -        -       0.927     -           2         
-modulator_0.clock_counter_RNO_0[15]        OR2A         B        In      -         31.765      -         
-modulator_0.clock_counter_RNO_0[15]        OR2A         Y        Out     1.554     33.319      -         
-N_91                                       Net          -        -       0.773     -           1         
-modulator_0.clock_counter_RNO[15]          XA1A         B        In      -         34.092      -         
-modulator_0.clock_counter_RNO[15]          XA1A         Y        Out     2.259     36.351      -         
+modulator_0.clock_counter_RNO_0[15]        OR2A         B        In      -         35.654      -         
+modulator_0.clock_counter_RNO_0[15]        OR2A         Y        Out     1.554     37.207      -         
+N_50                                       Net          -        -       0.773     -           1         
+modulator_0.clock_counter_RNO[15]          XA1A         B        In      -         37.980      -         
+modulator_0.clock_counter_RNO[15]          XA1A         Y        Out     2.259     40.239      -         
 clock_counter_n15                          Net          -        -       0.773     -           1         
-modulator_0.clock_counter[15]              DFN1E1C0     D        In      -         37.124      -         
+modulator_0.clock_counter[15]              DFN1E1C0     D        In      -         41.012      -         
 =========================================================================================================
-Total path delay (propagation time + setup) of 38.418 is 21.725(56.5%) logic and 16.693(43.5%) route.
+Total path delay (propagation time + setup) of 42.306 is 23.780(56.2%) logic and 18.527(43.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -816,40 +817,39 @@ Report for cell top.verilog
               cell count     area count*area
               AND2     7      1.0        7.0
               AND3    18      1.0       18.0
+              AO16     1      1.0        1.0
               AO1B     2      1.0        2.0
-              AOI1     2      1.0        2.0
+              AOI1     1      1.0        1.0
              AOI1B     4      1.0        4.0
-              AX1C     4      1.0        4.0
+              AX1C     3      1.0        3.0
                GND     6      0.0        0.0
                INV     4      1.0        4.0
-              NOR2    10      1.0       10.0
-             NOR2A     6      1.0        6.0
-             NOR2B    28      1.0       28.0
-              NOR3     4      1.0        4.0
-             NOR3A     4      1.0        4.0
-             NOR3B     5      1.0        5.0
+              NOR2    15      1.0       15.0
+             NOR2A     4      1.0        4.0
+             NOR2B    25      1.0       25.0
+              NOR3     3      1.0        3.0
+             NOR3A     5      1.0        5.0
+             NOR3B     3      1.0        3.0
              NOR3C     7      1.0        7.0
-               OA1     1      1.0        1.0
-              OA1C     1      1.0        1.0
-               OR2     7      1.0        7.0
-              OR2A    11      1.0       11.0
-              OR2B     2      1.0        2.0
-               OR3     2      1.0        2.0
-              OR3C     1      1.0        1.0
+              OA1C     2      1.0        2.0
+               OR2     2      1.0        2.0
+              OR2A     9      1.0        9.0
+              OR2B     1      1.0        1.0
+              OR3B     2      1.0        2.0
                PLL     1      0.0        0.0
             PLLINT     1      0.0        0.0
                VCC     6      0.0        0.0
-               XA1    13      1.0       13.0
-              XA1A    13      1.0       13.0
-              XA1B     4      1.0        4.0
-              XAI1     1      1.0        1.0
+               XA1    14      1.0       14.0
+              XA1A     8      1.0        8.0
+              XA1B     6      1.0        6.0
+              XA1C     4      1.0        4.0
               XOR2    18      1.0       18.0
 
 
             DFN1C0    44      1.0       44.0
           DFN1E1C0    17      1.0       17.0
                    -----          ----------
-             TOTAL   254               240.0
+             TOTAL   243               229.0
 
 
   IO Cell usage:
@@ -861,7 +861,7 @@ Report for cell top.verilog
              TOTAL     9
 
 
-Core Cells         : 240 of 6144 (4%)
+Core Cells         : 229 of 6144 (4%)
 IO Cells           : 9
 
   RAM/ROM Usage Summary
@@ -872,6 +872,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 25MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Jan 15 11:21:00 2018
+# Wed Jan 17 19:58:49 2018
 
 ###########################################################]

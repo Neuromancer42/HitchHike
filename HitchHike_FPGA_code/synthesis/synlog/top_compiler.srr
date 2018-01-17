@@ -15,19 +15,17 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v" (library work)
+@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v" (library work)
+@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v" (library work)
-@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v" (library work)
-@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v" (library work)
 Verilog syntax check successful!
-
-Compiler output is up to date.  No re-compile necessary
-
+Options changed - recompiling
 Selecting top level module top
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
 
@@ -232,12 +230,12 @@ Selecting top level module top
 @N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":30:12:30:21|Input cur_scheme is unused.
 @N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":4:11:4:20|Input input_data is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 81MB peak: 88MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jan 15 11:20:55 2018
+# Wed Jan 17 19:58:44 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
@@ -248,16 +246,16 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jan 15 11:20:55 2018
+# Wed Jan 17 19:58:45 2018
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Jan 15 11:20:55 2018
+# Wed Jan 17 19:58:45 2018
 
 ###########################################################]

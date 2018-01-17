@@ -33,9 +33,9 @@ The Import command succeeded ( 00:00:01 )
 Warning: Overwriting the existing file: ../../synthesis/top.v.
 Wrote to the file: ..\..\synthesis\top.v
 
-The Export command succeeded ( 00:00:01 )
+The Export command succeeded ( 00:00:02 )
 
-The Execute Script command succeeded ( 00:00:04 )
+The Execute Script command succeeded ( 00:00:05 )
 Warning: The database was closed without a save, modifications are lost
 Design closed.
 
