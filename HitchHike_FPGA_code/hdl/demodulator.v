@@ -63,7 +63,7 @@ begin
                 waittime <= 11'd0;
                 checksum <= 1'b0;
             end
-            if (insig) begin
+            else if (insig) begin
                 latency <= latency + 1;
                 waittime <= 11'd0;
             end

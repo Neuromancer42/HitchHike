@@ -54,25 +54,25 @@ SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1515837216"
+TIME="1516181603"
 SIZE="4190"
 ENDFILE
 VALUE "<project>\component\work\top\top.v,hdl"
 STATE="utd"
-TIME="1515837214"
+TIME="1516181603"
 SIZE="9050"
 PARENT="<project>\component\work\top\top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl1\top.adb,adb"
 STATE="ood"
-TIME="1515409068"
-SIZE="1371136"
+TIME="1516174366"
+SIZE="1157632"
 ENDFILE
 VALUE "<project>\designer\impl1\top.ide_des,ide_des"
 STATE="utd"
-TIME="1515409068"
-SIZE="961"
+TIME="1516174366"
+SIZE="1023"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba.sdf,ba_sdf"
 STATE="ood"
@@ -81,8 +81,8 @@ SIZE="483315"
 ENDFILE
 VALUE "<project>\designer\impl1\top_compile_log.rpt,log"
 STATE="utd"
-TIME="1515409068"
-SIZE="9905"
+TIME="1516174366"
+SIZE="9489"
 ENDFILE
 VALUE "<project>\designer\impl1\top_fp\projectData\top.pdb,pdb"
 STATE="utd"
@@ -121,7 +121,7 @@ SIZE="2010"
 ENDFILE
 VALUE "<project>\hdl\data_source.v,hdl"
 STATE="utd"
-TIME="1515835335"
+TIME="1516174366"
 SIZE="2019"
 ENDFILE
 VALUE "<project>\hdl\dbpsk_modulator.v,hdl"
@@ -131,7 +131,7 @@ SIZE="843"
 ENDFILE
 VALUE "<project>\hdl\demodulator.v,hdl"
 STATE="utd"
-TIME="1515820416"
+TIME="1516181603"
 SIZE="3988"
 ENDFILE
 VALUE "<project>\hdl\dqpsk_modulator.v,hdl"
@@ -141,7 +141,7 @@ SIZE="1590"
 ENDFILE
 VALUE "<project>\hdl\mac.v,hdl"
 STATE="utd"
-TIME="1515917092"
+TIME="1516174366"
 SIZE="11422"
 ENDFILE
 VALUE "<project>\hdl\main_clock.v,hdl"
@@ -191,18 +191,13 @@ SIZE="1886"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1515411808"
+TIME="1516181603"
 SIZE="688"
-ENDFILE
-VALUE "<project>\simulation\top_tb_postsynth_simulation.log,log"
-STATE="utd"
-TIME="1515937413"
-SIZE="68"
 ENDFILE
 VALUE "<project>\simulation\top_tb_presynth_simulation.log,log"
 STATE="utd"
-TIME="1515937307"
-SIZE="68"
+TIME="1516181523"
+SIZE="4771"
 ENDFILE
 VALUE "<project>\smartgen\delay\delay.cxf,actgen_cxf"
 STATE="utd"
@@ -284,12 +279,12 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\stimulus\top_tb.v,tb_hdl"
 STATE="utd"
-TIME="1515986415"
+TIME="1516181603"
 SIZE="1653"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1515915018"
+TIME="1515932589"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\top_comp.so,so"
@@ -299,28 +294,28 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\top.edn,syn_edn"
 STATE="utd"
-TIME="1515409070"
-SIZE="389026"
+TIME="1516181603"
+SIZE="128440"
 ENDFILE
 VALUE "<project>\synthesis\top.so,so"
 STATE="utd"
-TIME="1515409070"
-SIZE="216"
+TIME="1516174999"
+SIZE="246"
 ENDFILE
 VALUE "<project>\synthesis\top.v,syn_hdl"
 STATE="utd"
-TIME="1515409070"
-SIZE="19556"
+TIME="1516174367"
+SIZE="35601"
 ENDFILE
 VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1515409070"
+TIME="1516174999"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\top_syn.prj,prj"
 STATE="utd"
-TIME="1515409197"
-SIZE="2759"
+TIME="1516181603"
+SIZE="3077"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -420,8 +415,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -429,7 +424,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
-PARAM=" -l top_tb_postsynth_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -481,12 +476,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Synthesize:synplify.log
-HDL;stimulus\top_tb.v;0
-HDL;synthesis\top.v;0
-HDL;hdl\randgen.v;0
-ACTIVEVIEW;Reports
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "clock_divider::work","hdl\clock_divider.v","FALSE","FALSE"
@@ -534,14 +525,14 @@ SUBBLOCK "data_rate::work","hdl\data_rate.v","FALSE","FALSE"
 SUBBLOCK "data_source::work","hdl\data_source.v","FALSE","FALSE"
 SUBBLOCK "dbpsk_modulator::work","hdl\dbpsk_modulator.v","FALSE","FALSE"
 SUBBLOCK "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
+SUBBLOCK "mac::work","hdl\mac.v","FALSE","FALSE"
 SUBBLOCK "main_clock::work","hdl\main_clock.v","FALSE","FALSE"
 SUBBLOCK "modulator::work","hdl\modulator.v","FALSE","FALSE"
 SUBBLOCK "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
+SUBBLOCK "randgen::work","hdl\randgen.v","FALSE","FALSE"
 SUBBLOCK "ten_mhz_clock::work","hdl\ten_mhz_clock.v","FALSE","FALSE"
 SUBBLOCK "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
 SUBBLOCK "whitening::work","hdl\whitening.v","FALSE","FALSE"
-SUBBLOCK "mac::work","hdl\mac.v","FALSE","FALSE"
-SUBBLOCK "randgen::work","hdl\randgen.v","FALSE","FALSE"
 ENDLIST
 LIST "trigger_signal_gen::work","hdl\trigger_signal_gen.v","FALSE","FALSE"
 ENDLIST
