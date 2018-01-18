@@ -42,6 +42,18 @@ VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
+VALUE "<project>\component\work\demodulator_tb\demodulator_tb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1516264265"
+SIZE="2240"
+ENDFILE
+VALUE "<project>\component\work\demodulator_tb\demodulator_tb.v,tb_hdl"
+STATE="utd"
+TIME="1516264265"
+SIZE="2208"
+PARENT="<project>\component\work\demodulator_tb\demodulator_tb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
 STATE="utd"
 TIME="1515409068"
@@ -65,25 +77,30 @@ PARENT="<project>\component\work\mac_tb\mac_tb.cxf"
 ENDFILE
 VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1516189978"
-SIZE="4190"
+TIME="1516266523"
+SIZE="4014"
 ENDFILE
 VALUE "<project>\component\work\top\top.v,hdl"
 STATE="utd"
-TIME="1516189977"
-SIZE="9050"
+TIME="1516266522"
+SIZE="7746"
 PARENT="<project>\component\work\top\top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl1\top.adb,adb"
-STATE="ood"
-TIME="1516174366"
-SIZE="1157632"
+STATE="utd"
+TIME="1516269465"
+SIZE="1381376"
 ENDFILE
 VALUE "<project>\designer\impl1\top.ide_des,ide_des"
 STATE="utd"
-TIME="1516174366"
+TIME="1516269465"
 SIZE="1023"
+ENDFILE
+VALUE "<project>\designer\impl1\top.pdb,pdb"
+STATE="utd"
+TIME="1516269464"
+SIZE="67984"
 ENDFILE
 VALUE "<project>\designer\impl1\top_ba.sdf,ba_sdf"
 STATE="ood"
@@ -92,23 +109,38 @@ SIZE="483315"
 ENDFILE
 VALUE "<project>\designer\impl1\top_compile_log.rpt,log"
 STATE="utd"
-TIME="1516174366"
-SIZE="9489"
+TIME="1516269390"
+SIZE="10023"
 ENDFILE
 VALUE "<project>\designer\impl1\top_fp\projectData\top.pdb,pdb"
 STATE="utd"
-TIME="1515409068"
-SIZE="67215"
+TIME="1516269505"
+SIZE="67984"
 ENDFILE
 VALUE "<project>\designer\impl1\top_fp\top.pro,pro"
 STATE="utd"
-TIME="1515409197"
-SIZE="2697"
+TIME="1516269505"
+SIZE="2457"
+ENDFILE
+VALUE "<project>\designer\impl1\top_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1516269431"
+SIZE="2565"
+ENDFILE
+VALUE "<project>\designer\impl1\top_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1516269465"
+SIZE="818"
 ENDFILE
 VALUE "<project>\designer\impl1\top_timingconstraints_log.rpt,log"
 STATE="utd"
 TIME="1515409068"
 SIZE="364"
+ENDFILE
+VALUE "<project>\designer\impl1\top_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1516269438"
+SIZE="1191"
 ENDFILE
 VALUE "<project>\hdl\clock_divider.v,hdl"
 STATE="utd"
@@ -132,8 +164,8 @@ SIZE="2010"
 ENDFILE
 VALUE "<project>\hdl\data_source.v,hdl"
 STATE="utd"
-TIME="1516174366"
-SIZE="2019"
+TIME="1516266310"
+SIZE="2112"
 ENDFILE
 VALUE "<project>\hdl\dbpsk_modulator.v,hdl"
 STATE="utd"
@@ -142,8 +174,8 @@ SIZE="843"
 ENDFILE
 VALUE "<project>\hdl\demodulator.v,hdl"
 STATE="utd"
-TIME="1516181746"
-SIZE="3993"
+TIME="1516266355"
+SIZE="3346"
 ENDFILE
 VALUE "<project>\hdl\dqpsk_modulator.v,hdl"
 STATE="utd"
@@ -202,18 +234,23 @@ SIZE="1886"
 ENDFILE
 VALUE "<project>\simulation\demodulator_tb_presynth_simulation.log,log"
 STATE="utd"
-TIME="1516189160"
-SIZE="2878"
+TIME="1516264871"
+SIZE="3327"
+ENDFILE
+VALUE "<project>\simulation\demodulator_tb_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1516266061"
+SIZE="4289"
 ENDFILE
 VALUE "<project>\simulation\mac_tb_presynth_simulation.log,log"
 STATE="utd"
-TIME="1516217836"
-SIZE="68"
+TIME="1516217917"
+SIZE="3636"
 ENDFILE
 VALUE "<project>\simulation\mac_tb_tb_presynth_simulation.log,log"
 STATE="utd"
-TIME="1516218195"
-SIZE="68"
+TIME="1516218758"
+SIZE="4798"
 ENDFILE
 VALUE "<project>\simulation\modulator_tb_presynth_simulation.log,log"
 STATE="utd"
@@ -222,13 +259,8 @@ SIZE="2931"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1516190377"
-SIZE="688"
-ENDFILE
-VALUE "<project>\simulation\top_tb_postsynth_simulation.log,log"
-STATE="utd"
-TIME="1516216127"
-SIZE="68"
+TIME="1516265861"
+SIZE="1084"
 ENDFILE
 VALUE "<project>\smartgen\delay\delay.cxf,actgen_cxf"
 STATE="utd"
@@ -308,20 +340,15 @@ SIZE="2711"
 PARENT="<project>\smartgen\pll_core\pll_core.cxf"
 IS_READONLY="TRUE"
 ENDFILE
-VALUE "<project>\stimulus\demodulator_tb.v,tb_hdl"
+VALUE "<project>\stimulus\demodulator_tb_tb.v,tb_hdl"
 STATE="utd"
-TIME="1516188938"
-SIZE="2144"
+TIME="1516265692"
+SIZE="2096"
 ENDFILE
 VALUE "<project>\stimulus\mac_tb_tb.v,tb_hdl"
 STATE="utd"
 TIME="1516218178"
 SIZE="1597"
-ENDFILE
-VALUE "<project>\stimulus\modulator_tb.v,tb_hdl"
-STATE="utd"
-TIME="1516188573"
-SIZE="2068"
 ENDFILE
 VALUE "<project>\stimulus\top_tb.v,tb_hdl"
 STATE="utd"
@@ -330,7 +357,7 @@ SIZE="1661"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1515932589"
+TIME="1516266364"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\top_comp.so,so"
@@ -340,28 +367,28 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\top.edn,syn_edn"
 STATE="utd"
-TIME="1516190329"
-SIZE="124015"
+TIME="1516266537"
+SIZE="489540"
 ENDFILE
 VALUE "<project>\synthesis\top.so,so"
 STATE="utd"
-TIME="1516190329"
+TIME="1516266537"
 SIZE="246"
 ENDFILE
 VALUE "<project>\synthesis\top.v,syn_hdl"
-STATE="utd"
-TIME="1516190376"
-SIZE="34478"
+STATE="ood"
+TIME="1516216116"
+SIZE="452100"
 ENDFILE
 VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1516190329"
+TIME="1516266537"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\top_syn.prj,prj"
 STATE="utd"
-TIME="1516190329"
-SIZE="3077"
+TIME="1516266537"
+SIZE="2869"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -369,14 +396,12 @@ ENDLIST
 LIST NewModulesInfo
 LIST "top::work"
 FILE "<project>\component\work\top\top.v,hdl"
-LIST AssociatedStimulus
-VALUE "<project>\stimulus\top_tb.v,tb_hdl"
-ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Synthesis
-ideSTIMULUS=StateSuccess
+LiberoState=Post_Layout
 ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.vm,syn_vm)=StateFailure
+ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -386,12 +411,13 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\top_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\top_report_pin_bynumber.txt,log"
+ENDLIST
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
-LIST top
-VALUE "<project>\stimulus\top_tb.v,tb_hdl"
-ENDLIST
 ENDLIST
 LIST Other_Association
 ENDLIST
@@ -402,7 +428,7 @@ Type=max
 RunTime=10us
 Resolution=1ps
 VsimOpt=
-EntityName=top_tb
+EntityName=testbench
 TopInstanceName=<top>_0
 DoFileName=
 DoFileName2=wave.do
@@ -461,8 +487,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -470,7 +496,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
-PARAM=" -l mac_tb_tb_presynth_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -497,9 +523,10 @@ ENDLIST
 LIST ProjectState5.1
 LIST "top::work"
 LIST Impl1
-LiberoState=Post_Synthesis
-ideSTIMULUS=StateSuccess
+LiberoState=Post_Layout
 ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.vm,syn_vm)=StateFailure
+ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -522,22 +549,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;stimulus\mac_tb_tb.v;0
-HDL;stimulus\top_tb.v;0
-HDL;component\work\mac_tb\mac_tb.v;0
-SmartDesign;top;0
-SmartDesign;mac_tb;0
-Reports;Reports;0
-ReportsCurrentItem;Synthesize:top.srr
-HDL;stimulus\demodulator_tb.v;0
-HDL;stimulus\modulator_tb.v;0
-HDL;hdl\randgen.v;0
 StartPage;StartPage;0
-HDL;hdl\demodulator.v;0
-HDL;hdl\mac.v;0
-HDL;hdl\data_source.v;0
-HDL;hdl\modulator.v;0
-ACTIVEVIEW;stimulus\mac_tb_tb.v
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "clock_divider::work","hdl\clock_divider.v","FALSE","FALSE"
@@ -588,11 +601,9 @@ SUBBLOCK "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
 SUBBLOCK "main_clock::work","hdl\main_clock.v","FALSE","FALSE"
 SUBBLOCK "modulator::work","hdl\modulator.v","FALSE","FALSE"
 SUBBLOCK "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
-SUBBLOCK "randgen::work","hdl\randgen.v","FALSE","FALSE"
 SUBBLOCK "ten_mhz_clock::work","hdl\ten_mhz_clock.v","FALSE","FALSE"
 SUBBLOCK "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
 SUBBLOCK "whitening::work","hdl\whitening.v","FALSE","FALSE"
-SUBBLOCK "mac::work","hdl\mac.v","FALSE","FALSE"
 ENDLIST
 LIST "trigger_signal_gen::work","hdl\trigger_signal_gen.v","FALSE","FALSE"
 ENDLIST
@@ -600,8 +611,12 @@ LIST "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
 ENDLIST
 LIST "whitening::work","hdl\whitening.v","FALSE","FALSE"
 ENDLIST
-LIST "demodulator_tb::work","stimulus\demodulator_tb.v","FALSE","TRUE"
+LIST "demodulator_tb::work","component\work\demodulator_tb\demodulator_tb.v","TRUE","TRUE"
+SUBBLOCK "data_source::work","hdl\data_source.v","FALSE","FALSE"
 SUBBLOCK "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
+ENDLIST
+LIST "demodulator_tb_tb::work","stimulus\demodulator_tb_tb.v","FALSE","TRUE"
+SUBBLOCK "demodulator_tb::work","component\work\demodulator_tb\demodulator_tb.v","TRUE","TRUE"
 ENDLIST
 LIST "mac_tb::work","component\work\mac_tb\mac_tb.v","TRUE","TRUE"
 SUBBLOCK "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
@@ -611,17 +626,11 @@ ENDLIST
 LIST "mac_tb_tb::work","stimulus\mac_tb_tb.v","FALSE","TRUE"
 SUBBLOCK "mac_tb::work","component\work\mac_tb\mac_tb.v","TRUE","TRUE"
 ENDLIST
-LIST "modulator_tb::work","stimulus\modulator_tb.v","FALSE","TRUE"
-SUBBLOCK "modulator::work","hdl\modulator.v","FALSE","FALSE"
-ENDLIST
 LIST "top_tb::work","stimulus\top_tb.v","FALSE","TRUE"
 SUBBLOCK "top::work","component\work\top\top.v","TRUE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
-LIST "top::work"
-ACTIVETESTBENCH "top_tb::work","stimulus\top_tb.v","FALSE"
-ENDLIST
 ENDLIST
 LIST IOTabList
 ENDLIST

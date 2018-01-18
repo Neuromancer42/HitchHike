@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Sun Jan 14 16:28:26 2018 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Thu Jan 18 20:04:31 2018 UNCOMPLETED LAYOUT
 Product: Designer
 Release: Libero SoC v11.8 SP2
 Version: 11.8.2.4
@@ -19,6 +19,7 @@ Port               |Pin |Fixed |Function      |I/O Std  |Output Drive (mA) |Slew
 -------------------|----|------|--------------|---------|------------------|-----|--------------|-----------------|------------|--------------|----------------|---------------------------------------------|
 clock               15   Yes    GFA1/IO58RSB3  LVCMOS12  ---                ---   None           ---               No           No             No               No
 clock_out           94   Yes    GAC0/IO04RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+insig               45   No     GDA2/IO34RSB2  LVCMOS12  ---                ---   None           ---               No           No             No               No
 output_data_rate    95   Yes    GAB1/IO03RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
 output_signal       93   Yes    GAC1/IO05RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
 ref_signal          2    Yes    GAA2/IO67RSB3  LVCMOS12  2                  High  None           5                 No           No             ---              No

@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Sun Jan 14 16:28:27 2018 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Thu Jan 18 20:04:31 2018 UNCOMPLETED LAYOUT
 Product: Designer
 Release: Libero SoC v11.8 SP2
 Version: 11.8.2.4
@@ -61,7 +61,7 @@ Number |Port               |Function         |State       |I/O Std  |Output Driv
 42                          IO37RSB2          Unassigned
 43                          GDC2/IO36RSB2     Special
 44                          GDB2/IO35RSB2     Special
-45                          GDA2/IO34RSB2     Special
+45      insig               GDA2/IO34RSB2     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
 46                          GNDQ              Reserved
 47                          TCK               Reserved
 48                          TDI               Reserved

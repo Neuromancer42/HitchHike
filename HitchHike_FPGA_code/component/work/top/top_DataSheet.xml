@@ -12,7 +12,7 @@
     <project-description>
     </project-description>
     <location>C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/component/work/top</location>
-    <state>GENERATED ( Wed Jan 17 19:52:58 2018 )</state>
+    <state>GENERATED ( Thu Jan 18 17:08:42 2018 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
@@ -223,12 +223,6 @@
   </core>
   <core type="HdlModule">
     <core-type>HdlModule</core-type>
-    <core-exttype>mac</core-exttype>
-    <core-location>hdl\mac.v</core-location>
-    <core-name>mac_0</core-name>
-  </core>
-  <core type="HdlModule">
-    <core-type>HdlModule</core-type>
     <core-exttype>main_clock</core-exttype>
     <core-location>hdl\main_clock.v</core-location>
     <core-name>main_clock_0</core-name>
@@ -254,12 +248,6 @@
     <core-exttype>SmartGen</core-exttype>
     <core-location>C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/smartgen/pll_core</core-location>
     <core-name>pll_core_0</core-name>
-  </core>
-  <core type="HdlModule">
-    <core-type>HdlModule</core-type>
-    <core-exttype>randgen</core-exttype>
-    <core-location>hdl\randgen.v</core-location>
-    <core-name>randgen_0</core-name>
   </core>
   <core type="HdlModule">
     <core-type>HdlModule</core-type>

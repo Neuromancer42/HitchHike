@@ -16,10 +16,10 @@
     </SerializationOption>
     <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb2.0">
         <name>
-            012ZVMC
+            S201QV8N8
         </name>
         <id>
-            012ZVMC
+            S201QV8N8
         </id>
     </programmer>
     <configuration>
@@ -59,15 +59,6 @@
                     FreeRunningClk
                 </ClkMode>
             </FlashPro4>
-            <FlashPro5>
-                <TCK>
-                    4000000
-                </TCK>
-                <Vpump/>
-                <ClkMode>
-                    FreeRunningClk
-                </ClkMode>
-            </FlashPro5>
             <FlashPro5>
                 <TCK>
                     4000000

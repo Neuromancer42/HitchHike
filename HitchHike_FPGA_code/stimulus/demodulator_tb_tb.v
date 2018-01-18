@@ -1,16 +1,7 @@
-//////////////////////////////////////////////////////////////////////
-// Created by Microsemi SmartDesign Wed Jan 17 19:35:00 2018
-// Testbench Template
-// This is a basic testbench that instantiates your design with basic 
-// clock and reset pins connected.  If your design has special
-// clock/reset or testbench driver requirements then you should 
-// copy this file and modify it. 
-//////////////////////////////////////////////////////////////////////
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Company: <Name>
 //
-// File: demodulator_tb.v
+// File: demodulator_tb_tb.v
 // File history:
 //      <Revision number>: <Date>: <Comments>
 //      <Revision number>: <Date>: <Comments>
@@ -27,17 +18,19 @@
 
 `timescale 1ns/100ps
 
-module demodulator_tb;
+module demodulator_tb_tb;
 
 parameter SYSCLK_PERIOD = 100;// 10MHZ
 
 reg SYSCLK;
 reg NSYSRESET;
+reg INSIG;
 
 initial
 begin
     SYSCLK = 1'b0;
     NSYSRESET = 1'b0;
+    INSIG = 1'b0;
 end
 
 //////////////////////////////////////////////////////////////////////
@@ -47,6 +40,23 @@ initial
 begin
     #(SYSCLK_PERIOD * 10 )
         NSYSRESET = 1'b1;
+        INSIG = 1'b1;
+    #(SYSCLK_PERIOD * 496*50)
+        INSIG = 1'b0;
+    #(SYSCLK_PERIOD * 100)
+        INSIG = 1'b1;
+    #(SYSCLK_PERIOD * 424*50)
+        INSIG = 1'b0;
+    #(SYSCLK_PERIOD * 100)
+        INSIG = 1'b1;
+    #(SYSCLK_PERIOD * 496*50)
+        INSIG = 1'b0;
+    #(SYSCLK_PERIOD * 100)
+        INSIG = 1'b1;
+    #(SYSCLK_PERIOD * 424*50)
+        INSIG = 1'b0;
+    #(SYSCLK_PERIOD * 100)
+        INSIG = 1'b1;
 end
 
 
@@ -58,20 +68,17 @@ always @(SYSCLK)
 
 
 //////////////////////////////////////////////////////////////////////
-// Instantiate Unit Under Test:  demodulator
+// Instantiate Unit Under Test:  top
 //////////////////////////////////////////////////////////////////////
-demodulator demodulator_0 (
+demodulator_tb demodulator_tb_0 (
     // Inputs
     .clock(SYSCLK),
     .reset(NSYSRESET),
-    .insig({1{1'b1}}),
-    .working({1{1'b0}}),
+    .insig(INSIG),
+    .data_source({10{1'b0}}),
 
     // Outputs
-    .ord( ),
-    .ctg( ),
-    .cur_flag( ),
-    .cur_scheme( )
+    .output_data()
 
     // Inouts
 

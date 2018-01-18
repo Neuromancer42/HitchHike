@@ -1,10 +1,9 @@
-module data_source( clock, reset, trigger, input_data, output_data, sending, head, datacmd );
+`timescale 1ns/100ps
+module data_source( clock, reset, trigger, input_data, output_data, sending );
 input clock, reset;
 input trigger;
 input[9:0] input_data;
 input sending;
-input head;
-input datacmd;
 
 output reg output_data;
 
@@ -14,6 +13,7 @@ reg[7:0] data1;
 reg[7:0] data2;
 reg[7:0] data3;
 reg[7:0] data4;
+reg[7:0] data5;
 
 always @(posedge clock or negedge reset)
 begin
@@ -25,13 +25,17 @@ begin
         //data2 <= input_data[7:0];
         //data3[1:0] <= input_data[9:8];
 
-        data2 <= #1 8'b10101010;
-        data3[1:0] <= #1 2'b10;
+        //data2 <= #1 8'b10101010;
+        //data3[1:0] <= #1 2'b10;
 
-        data3[7:2] <= #1 6'b000000;
-        data4 <= #1 8'b00000000; 
-        state[143:0] <= {data1,data1,data1,data1,data1,data1, data2,data2,data2, data3,data3,data3, data1,data1,data1, data4,data4,data4};
-
+        //data3[7:2] <= #1 6'b000000;
+        //data4 <= #1 8'b00000000; 
+        //state[143:0] <= {data1,data1,data1,data1,data1,data1, data2,data2,data2, data3,data3,data3, data1,data1,data1, data4,data4,data4};
+        data2 <= #1 8'b11111111;
+        data3 <= #1 8'b01000010;
+        data4 <= #1 8'b00001000;
+        data5 <= #1 8'b00000000;
+        state[143:0] <= {data1,data1,data1,data2,data3,data4,data5,data5,data5,data5,data5,data5,data5,data5,data5,data5,data5,data5,data5};
         counter <= 0;
     end
     else if (trigger)
@@ -41,15 +45,8 @@ begin
             counter <= counter+1;
             if (sending)
             begin
-                if (datacmd)
-                begin
-                    state <= {state[142:0],state[143]};
-                    output_data <= state[143];
-                end
-                else
-                begin
-                    output_data <= head;
-                end
+                state <= {state[142:0],state[143]};
+                output_data <= state[143];
             end
         end
         else

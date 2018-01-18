@@ -1,124 +1,20 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MF237 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\randgen.v":51:14:51:20|Generating a type rem remainder 
-@N: MF237 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\randgen.v":50:14:50:20|Generating a type rem remainder 
-@N: MF237 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\randgen.v":49:14:49:20|Generating a type rem remainder 
-@N: MF237 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\randgen.v":47:14:47:20|Generating a type rem remainder 
 @N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\data_source.v":18:0:18:5|Found counter in view:work.data_source(verilog) instance counter[15:0] 
 @N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\dbpsk_modulator.v":9:0:9:5|Found counter in view:work.dbpsk_modulator(verilog) instance counter[15:0] 
-@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\demodulator.v":42:0:42:5|Found counter in view:work.demodulator(verilog) instance waittime[10:0] 
-@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\demodulator.v":42:0:42:5|Found counter in view:work.demodulator(verilog) instance latency[9:0] 
-@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\demodulator.v":120:23:120:34|Found 6-bit incrementor, 'un3_counter[5:0]'
-@N: MO230 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\mac.v":63:0:63:5|Found up-down counter in view:work.mac(verilog) instance cnt[3:0]  
-@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\mac.v":63:0:63:5|Found counter in view:work.mac(verilog) instance data_sent[15:0] 
-@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\mac.v":63:0:63:5|Found counter in view:work.mac(verilog) instance i[3:0] 
-@N: MF176 |Default generator successful 
-@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\mac.v":321:23:321:38|Found 6-bit incrementor, 'un3_div_counter[5:0]'
+@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\demodulator.v":40:0:40:5|Found counter in view:work.demodulator(verilog) instance waittime[10:0] 
+@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\demodulator.v":40:0:40:5|Found counter in view:work.demodulator(verilog) instance len[5:0] 
+@N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\demodulator.v":40:0:40:5|Found counter in view:work.demodulator(verilog) instance latency[9:0] 
+@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\demodulator.v":108:23:108:34|Found 6-bit incrementor, 'un3_counter[5:0]'
 @N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\main_clock.v":23:23:23:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
 @N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance clock_counter[15:0] 
 @N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance counter[5:0] 
-@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\randgen.v":47:14:47:20|Found 4-bit incrementor, 'un2_d3.if_generate_plus\.mult1_un12_sum[3:0]'
-@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\randgen.v":49:14:49:20|Found 5-bit incrementor, 'un2_d5.if_generate_plus\.mult1_un12_sum[4:0]'
-@N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\randgen.v":51:14:51:20|Found 5-bit incrementor, 'un2_d7.if_generate_plus\.mult1_un12_sum[4:0]'
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
-@N: MF176 |Default generator successful 
 @N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\two_mhz_clock.v":23:23:23:32|Found 12-bit incrementor, 'un5_counter[11:0]'
 @N: MO231 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Found counter in view:work.whitening(verilog) instance counter[15:0] 
 @N: MF238 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\whitening.v":69:30:69:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
 @N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
 @N: FP130 |Promoting Net ref_signal_c on CLKINT  main_clock_0.clock_out_inferred_clock 
-@N: FP130 |Promoting Net output_signal_c on CLKINT  I_555 
-@N: FP130 |Promoting Net data_source_0.N_703 on CLKINT  I_556 
-@N: FP130 |Promoting Net data_source_0.N_364 on CLKINT  I_557 
+@N: FP130 |Promoting Net output_signal_c on CLKINT  I_77 
+@N: FP130 |Promoting Net data_source_0.state_0_sqmuxa on CLKINT  I_78 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 @N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
