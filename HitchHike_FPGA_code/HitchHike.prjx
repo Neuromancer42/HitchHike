@@ -52,14 +52,25 @@ STATE="utd"
 TIME="1515409068"
 SIZE="413"
 ENDFILE
+VALUE "<project>\component\work\mac_tb\mac_tb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1516217824"
+SIZE="2399"
+ENDFILE
+VALUE "<project>\component\work\mac_tb\mac_tb.v,tb_hdl"
+STATE="utd"
+TIME="1516217824"
+SIZE="3150"
+PARENT="<project>\component\work\mac_tb\mac_tb.cxf"
+ENDFILE
 VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1516181603"
+TIME="1516189978"
 SIZE="4190"
 ENDFILE
 VALUE "<project>\component\work\top\top.v,hdl"
 STATE="utd"
-TIME="1516181603"
+TIME="1516189977"
 SIZE="9050"
 PARENT="<project>\component\work\top\top.cxf"
 IS_READONLY="TRUE"
@@ -131,8 +142,8 @@ SIZE="843"
 ENDFILE
 VALUE "<project>\hdl\demodulator.v,hdl"
 STATE="utd"
-TIME="1516181603"
-SIZE="3988"
+TIME="1516181746"
+SIZE="3993"
 ENDFILE
 VALUE "<project>\hdl\dqpsk_modulator.v,hdl"
 STATE="utd"
@@ -141,7 +152,7 @@ SIZE="1590"
 ENDFILE
 VALUE "<project>\hdl\mac.v,hdl"
 STATE="utd"
-TIME="1516174366"
+TIME="1516215901"
 SIZE="11422"
 ENDFILE
 VALUE "<project>\hdl\main_clock.v,hdl"
@@ -151,7 +162,7 @@ SIZE="549"
 ENDFILE
 VALUE "<project>\hdl\modulator.v,hdl"
 STATE="utd"
-TIME="1515409069"
+TIME="1516191443"
 SIZE="1039"
 ENDFILE
 VALUE "<project>\hdl\phaser_modulator.v,hdl"
@@ -189,15 +200,35 @@ STATE="utd"
 TIME="1515409069"
 SIZE="1886"
 ENDFILE
+VALUE "<project>\simulation\demodulator_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1516189160"
+SIZE="2878"
+ENDFILE
+VALUE "<project>\simulation\mac_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1516217836"
+SIZE="68"
+ENDFILE
+VALUE "<project>\simulation\mac_tb_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1516218195"
+SIZE="68"
+ENDFILE
+VALUE "<project>\simulation\modulator_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1516188951"
+SIZE="2931"
+ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1516181603"
+TIME="1516190377"
 SIZE="688"
 ENDFILE
-VALUE "<project>\simulation\top_tb_presynth_simulation.log,log"
+VALUE "<project>\simulation\top_tb_postsynth_simulation.log,log"
 STATE="utd"
-TIME="1516181523"
-SIZE="4771"
+TIME="1516216127"
+SIZE="68"
 ENDFILE
 VALUE "<project>\smartgen\delay\delay.cxf,actgen_cxf"
 STATE="utd"
@@ -277,10 +308,25 @@ SIZE="2711"
 PARENT="<project>\smartgen\pll_core\pll_core.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\stimulus\demodulator_tb.v,tb_hdl"
+STATE="utd"
+TIME="1516188938"
+SIZE="2144"
+ENDFILE
+VALUE "<project>\stimulus\mac_tb_tb.v,tb_hdl"
+STATE="utd"
+TIME="1516218178"
+SIZE="1597"
+ENDFILE
+VALUE "<project>\stimulus\modulator_tb.v,tb_hdl"
+STATE="utd"
+TIME="1516188573"
+SIZE="2068"
+ENDFILE
 VALUE "<project>\stimulus\top_tb.v,tb_hdl"
 STATE="utd"
-TIME="1516181603"
-SIZE="1653"
+TIME="1516197896"
+SIZE="1661"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
@@ -294,27 +340,27 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\top.edn,syn_edn"
 STATE="utd"
-TIME="1516181603"
-SIZE="128440"
+TIME="1516190329"
+SIZE="124015"
 ENDFILE
 VALUE "<project>\synthesis\top.so,so"
 STATE="utd"
-TIME="1516174999"
+TIME="1516190329"
 SIZE="246"
 ENDFILE
 VALUE "<project>\synthesis\top.v,syn_hdl"
 STATE="utd"
-TIME="1516174367"
-SIZE="35601"
+TIME="1516190376"
+SIZE="34478"
 ENDFILE
 VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1516174999"
+TIME="1516190329"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\top_syn.prj,prj"
 STATE="utd"
-TIME="1516181603"
+TIME="1516190329"
 SIZE="3077"
 ENDFILE
 ENDLIST
@@ -415,8 +461,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -424,7 +470,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l mac_tb_tb_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -476,8 +522,22 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+HDL;stimulus\mac_tb_tb.v;0
+HDL;stimulus\top_tb.v;0
+HDL;component\work\mac_tb\mac_tb.v;0
+SmartDesign;top;0
+SmartDesign;mac_tb;0
+Reports;Reports;0
+ReportsCurrentItem;Synthesize:top.srr
+HDL;stimulus\demodulator_tb.v;0
+HDL;stimulus\modulator_tb.v;0
+HDL;hdl\randgen.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+HDL;hdl\demodulator.v;0
+HDL;hdl\mac.v;0
+HDL;hdl\data_source.v;0
+HDL;hdl\modulator.v;0
+ACTIVEVIEW;stimulus\mac_tb_tb.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "clock_divider::work","hdl\clock_divider.v","FALSE","FALSE"
@@ -525,7 +585,6 @@ SUBBLOCK "data_rate::work","hdl\data_rate.v","FALSE","FALSE"
 SUBBLOCK "data_source::work","hdl\data_source.v","FALSE","FALSE"
 SUBBLOCK "dbpsk_modulator::work","hdl\dbpsk_modulator.v","FALSE","FALSE"
 SUBBLOCK "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
-SUBBLOCK "mac::work","hdl\mac.v","FALSE","FALSE"
 SUBBLOCK "main_clock::work","hdl\main_clock.v","FALSE","FALSE"
 SUBBLOCK "modulator::work","hdl\modulator.v","FALSE","FALSE"
 SUBBLOCK "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
@@ -533,6 +592,7 @@ SUBBLOCK "randgen::work","hdl\randgen.v","FALSE","FALSE"
 SUBBLOCK "ten_mhz_clock::work","hdl\ten_mhz_clock.v","FALSE","FALSE"
 SUBBLOCK "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
 SUBBLOCK "whitening::work","hdl\whitening.v","FALSE","FALSE"
+SUBBLOCK "mac::work","hdl\mac.v","FALSE","FALSE"
 ENDLIST
 LIST "trigger_signal_gen::work","hdl\trigger_signal_gen.v","FALSE","FALSE"
 ENDLIST
@@ -540,11 +600,28 @@ LIST "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
 ENDLIST
 LIST "whitening::work","hdl\whitening.v","FALSE","FALSE"
 ENDLIST
+LIST "demodulator_tb::work","stimulus\demodulator_tb.v","FALSE","TRUE"
+SUBBLOCK "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
+ENDLIST
+LIST "mac_tb::work","component\work\mac_tb\mac_tb.v","TRUE","TRUE"
+SUBBLOCK "demodulator::work","hdl\demodulator.v","FALSE","FALSE"
+SUBBLOCK "mac::work","hdl\mac.v","FALSE","FALSE"
+SUBBLOCK "randgen::work","hdl\randgen.v","FALSE","FALSE"
+ENDLIST
+LIST "mac_tb_tb::work","stimulus\mac_tb_tb.v","FALSE","TRUE"
+SUBBLOCK "mac_tb::work","component\work\mac_tb\mac_tb.v","TRUE","TRUE"
+ENDLIST
+LIST "modulator_tb::work","stimulus\modulator_tb.v","FALSE","TRUE"
+SUBBLOCK "modulator::work","hdl\modulator.v","FALSE","FALSE"
+ENDLIST
 LIST "top_tb::work","stimulus\top_tb.v","FALSE","TRUE"
 SUBBLOCK "top::work","component\work\top\top.v","TRUE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
+LIST "top::work"
+ACTIVETESTBENCH "top_tb::work","stimulus\top_tb.v","FALSE"
+ENDLIST
 ENDLIST
 LIST IOTabList
 ENDLIST

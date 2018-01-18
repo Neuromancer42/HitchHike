@@ -15,7 +15,6 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v" (library work)
-@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v" (library work)
@@ -23,9 +22,17 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v" (library work)
+@I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v" (library work)
 @I::"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+File C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v changed - recompiling
+File C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v changed - recompiling
+File C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v changed - recompiling
+File C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v changed - recompiling
+File C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v changed - recompiling
+File C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v changed - recompiling
+File C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v changed - recompiling
+File C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v changed - recompiling
 Selecting top level module top
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
 
@@ -103,7 +110,6 @@ Selecting top level module top
 @N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit data_len[1] is always 0.
 @N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit data_len[2] is always 0.
 @N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit data_len[9] is always 0.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit launch is always 0.
 @W: CL260 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning register bit 9 of data_len[9:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL279 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning register bits 2 to 0 of data_len[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":1:7:1:16|Synthesizing module main_clock in library work.
@@ -171,91 +177,34 @@ Selecting top level module top
 @N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Register bit cur_rand[11] is always 0.
 @W: CL260 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Pruning register bit 11 of cur_rand[23:3]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL279 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v":41:0:41:5|Pruning register bits 5 to 4 of cur_rand[23:3]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit blank is always 0.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit i[0] is always 0.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit i[1] is always 0.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit i[2] is always 0.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit i[3] is always 0.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit counting is always 1.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit calculating is always 0.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit choosing is always 0.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register rd[2:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register flag[7:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register randint[23:0]. Make sure that there are no unused intermediate registers.
-@W: CL279 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning register bits 47 to 6 of scheme[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register resuming. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register cnt[3:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register frame_begin[9:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register scheme[5:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register choice[2:0]. Make sure that there are no unused intermediate registers.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit start is always 0.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit id[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit id[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit id[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit sending to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: CL189 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Register bit past is always 0.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit data_sent[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register data_sent[15:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register sending. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register id[2:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register data_len[8:3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register data_size[15:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register tick[9:0]. Make sure that there are no unused intermediate registers.
-@W: CL305 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
-@W: CL305 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit awaitheartbeat to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit awaitbeacon to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Optimizing register bit awaitscheme to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register awaitscheme. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register awaitheartbeat. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register awaitbeacon. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":63:0:63:5|Pruning unused register counter[9:0]. Make sure that there are no unused intermediate registers.
-@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":27:12:27:19|Input cur_rand is unused.
-@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":29:11:29:18|Input cur_flag is unused.
-@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v":30:12:30:21|Input cur_scheme is unused.
 @N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":4:11:4:20|Input input_data is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 81MB peak: 88MB)
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 84MB peak: 128MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Wed Jan 17 19:58:44 2018
+# Thu Jan 18 03:07:07 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jan 17 19:58:45 2018
+# Thu Jan 18 03:07:08 2018
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Wed Jan 17 19:58:45 2018
+# Thu Jan 18 03:07:08 2018
 
 ###########################################################]

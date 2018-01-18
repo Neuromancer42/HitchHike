@@ -89,7 +89,7 @@ begin
             end
             else if (init) begin
                 init <= 1'b0;
-                launch <= 1'b0;
+                launch <= 1'b1;
                 blank <= 1'b0;
                 start <= 1'b0;
                 past <= 1'b0;

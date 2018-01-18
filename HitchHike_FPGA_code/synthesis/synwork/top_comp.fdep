@@ -9,27 +9,27 @@
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\data_source.v":1516174366
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\dbpsk_modulator.v":1515409068
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\demodulator.v":1516181746
-#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\mac.v":1516174366
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\main_clock.v":1515409068
-#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\modulator.v":1516188352
+#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\modulator.v":1516191443
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\smartgen\\pll_core\\pll_core.v":1515409070
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\randgen.v":1515937121
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\ten_mhz_clock.v":1515409069
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\two_mhz_clock.v":1515409069
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\whitening.v":1515409069
+#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\mac.v":1516215901
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\component\\work\\top\\top.v":1516189977
 0			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v" verilog
 1			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v" verilog
 2			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v" verilog
 3			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v" verilog
-4			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v" verilog
-5			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v" verilog
-6			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v" verilog
-7			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v" verilog
-8			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v" verilog
-9			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v" verilog
-10			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v" verilog
-11			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v" verilog
+4			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v" verilog
+5			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v" verilog
+6			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v" verilog
+7			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\randgen.v" verilog
+8			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v" verilog
+9			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v" verilog
+10			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v" verilog
+11			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\mac.v" verilog
 12			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v" verilog
 #Dependency Lists(Uses List)
 0 -1
@@ -44,7 +44,7 @@
 9 -1
 10 -1
 11 -1
-12 9 0 11 10 8 7 6 5 4 3 2 1
+12 8 0 10 9 7 6 5 4 11 3 2 1
 #Dependency Lists(Users Of)
 0 12
 1 12
@@ -61,14 +61,14 @@
 12 -1
 #Design Unit to File Association
 module work top 12
-module work whitening 11
-module work two_mhz_clock 10
-module work ten_mhz_clock 9
-module work randgen 8
-module work pll_core 7
-module work modulator 6
-module work main_clock 5
-module work mac 4
+module work mac 11
+module work whitening 10
+module work two_mhz_clock 9
+module work ten_mhz_clock 8
+module work randgen 7
+module work pll_core 6
+module work modulator 5
+module work main_clock 4
 module work demodulator 3
 module work dbpsk_modulator 2
 module work data_source 1

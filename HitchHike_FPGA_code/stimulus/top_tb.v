@@ -56,7 +56,7 @@ top top_0 (
     .clock(SYSCLK),
     .reset(NSYSRESET),
     .trigger_signal(1'b1),
-    .insig(),
+    .insig(1'b1),
 
     // Outputs
     .clock_out( ),

@@ -29,13 +29,13 @@ Created a new design.
 Imported the file:
    C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.edn
 
-The Import command succeeded ( 00:00:01 )
+The Import command succeeded ( 00:00:03 )
 Warning: Overwriting the existing file: ../../synthesis/top.v.
 Wrote to the file: ..\..\synthesis\top.v
 
 The Export command succeeded ( 00:00:02 )
 
-The Execute Script command succeeded ( 00:00:05 )
+The Execute Script command succeeded ( 00:00:19 )
 Warning: The database was closed without a save, modifications are lost
 Design closed.
 

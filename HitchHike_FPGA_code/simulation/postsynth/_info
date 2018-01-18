@@ -74,21 +74,21 @@ R10
 R11
 R12
 vdata_source
-Z13 !s110 1516189609
+Z13 !s110 1516216628
 !i10b 1
-!s100 3lPPK=NhzMK8MU<l@Qhh52
-IYaYlo;mf]5UfKKahYl^kh3
+!s100 ZMTZj4PV=ITcTXAKE4K`D1
+I0OidoIH;2mB9zWIHickAh3
 R2
 R3
-Z14 w1516189548
+Z14 w1516216116
 R5
 R6
-L0 1049
+L0 6891
 R7
 r1
 !s85 0
 31
-Z15 !s108 1516189609.000000
+Z15 !s108 1516216627.000000
 R9
 R10
 !s101 -O0
@@ -96,13 +96,13 @@ R10
 R11
 R12
 vdbpsk_modulator
-Z16 !s110 1516190385
+Z16 !s110 1516216627
 !i10b 1
-!s100 Tj0:k53KfCOIe^kA_1iSW0
-I5L?>XR0Gjg2P>V`RDf^XO1
+!s100 :jR3nNBdKE9Co?1UPHi8K0
+ITLT]n>K:0bo>0:z`_FJgG2
 R2
 R3
-Z17 w1516190376
+R14
 R5
 R6
 L0 5
@@ -110,7 +110,51 @@ R7
 r1
 !s85 0
 31
-Z18 !s108 1516190384.000000
+R15
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vdemodulator
+R16
+!i10b 1
+!s100 ca;1OmAYM3UcP>kH6;kMP3
+I5<jG;R<Ii`a^fi:g<66022
+R2
+R3
+R14
+R5
+R6
+L0 6030
+R7
+r1
+!s85 0
+31
+R15
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vmac
+R16
+!i10b 1
+!s100 9kLELP<1jZE3inZTzf[=_0
+Ila8L<gTY^nVi?I`2d@KZZ1
+R2
+R3
+R14
+R5
+R6
+L0 4077
+R7
+r1
+!s85 0
+31
+R15
 R9
 R10
 !s101 -O0
@@ -120,19 +164,19 @@ R12
 vmain_clock
 R16
 !i10b 1
-!s100 LIcc3YG43WJhm=:PMEV6i2
-Ij^HhGQNYbgEf[U7z369kN3
+!s100 1nkRH]<;T7LZ`jIZEiYIi1
+IECd`7g9Z89CGXHgD=8>=G0
 R2
 R3
-R17
+R14
 R5
 R6
-L0 279
+L0 3945
 R7
 r1
 !s85 0
 31
-R18
+R15
 R9
 R10
 !s101 -O0
@@ -142,19 +186,19 @@ R12
 vmodulator
 R16
 !i10b 1
-!s100 JBdm]LCD8gCD0nC<bh<Cz0
-IzzYMIAjlhbGCRd`2O4I;32
+!s100 K4]nNZbb9ZL`FLg14Z<A91
+I<=P`XkWL54H75P;zfEaV?3
 R2
 R3
-R17
+R14
 R5
 R6
-L0 408
+L0 5798
 R7
 r1
 !s85 0
 31
-R18
+R15
 R9
 R10
 !s101 -O0
@@ -164,19 +208,41 @@ R12
 vpll_core
 R16
 !i10b 1
-!s100 iWB0k7618Kh_`Wm4[Rb4:1
-IVLIbmRJK[17IzY2LdWTP83
+!s100 R2eZLJa[k^I_Vkh[Bgz581
+IX1z9aT2:ge7]oDM_WRRML2
 R2
 R3
-R17
+R14
 R5
 R6
-L0 358
+L0 4027
 R7
 r1
 !s85 0
 31
-R18
+R15
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vrandgen
+R16
+!i10b 1
+!s100 hQzYoL_cH5d<SMCcW7E>61
+I?m67EV?`U?Q:M5RRd5B3>3
+R2
+R3
+R14
+R5
+R6
+L0 178
+R7
+r1
+!s85 0
+31
+R15
 R9
 R10
 !s101 -O0
@@ -184,21 +250,21 @@ R10
 R11
 R12
 vtop
-R16
+R13
 !i10b 1
-!s100 nzgV>`o_;k:m2L4`MB0TP1
-IHK57OSAWXhceB]hOAnFQC1
+!s100 =X6ZkPFR[G``Dc8@aCBJc3
+I4TYOPnSTV`gQ0<ElZ;1cB0
 R2
 R3
-R17
+R14
 R5
 R6
-L0 618
+L0 8048
 R7
 r1
 !s85 0
 31
-R18
+R15
 R9
 R10
 !s101 -O0
@@ -206,13 +272,13 @@ R10
 R11
 R12
 vtop_tb
-R16
+R13
 !i10b 1
-!s100 ohKV21IK88Oj:l_5h08AU1
-I?oba7:bJ2XK`L;g>^OeV^0
+!s100 45`YlNV<dG4GgTZP;VkL<1
+IBOJib30[cfz8>EeXDKThB2
 R2
 R3
-w1516189956
+w1516197896
 8C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus/top_tb.v
 FC:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus/top_tb.v
 L0 21
@@ -220,7 +286,7 @@ R7
 r1
 !s85 0
 31
-!s108 1516190385.000000
+!s108 1516216628.000000
 !s107 C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus/top_tb.v|
 !s90 -reportprogress|300|+incdir+C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus|-vlog01compat|-work|postsynth|C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/stimulus/top_tb.v|
 !s101 -O0
@@ -231,19 +297,19 @@ R12
 vtwo_mhz_clock
 R16
 !i10b 1
-!s100 VkdS6nlgEDZRGe_hb0X<k3
-I_mWBbDJ^@f9gi7T4Ef:^[1
+!s100 S6YPgna=:@a?U3Qk_@FiB1
+Ijob1Va614Mjkh3@GPPh3>2
 R2
 R3
-R17
+R14
 R5
 R6
-L0 153
+L0 3415
 R7
 r1
 !s85 0
 31
-R18
+R15
 R9
 R10
 !s101 -O0
@@ -251,16 +317,16 @@ R10
 R11
 R12
 vwhitening
-R13
+R16
 !i10b 1
-!s100 QPdDd^UHLC[M9XD4I:FV:0
-IFgRZczo>QMnfCRH>zLAOl0
+!s100 4Ll5M5Ni>LkfUi7SKA2S>3
+IRFZM^iUDCUm29MH6_YPTj0
 R2
 R3
 R14
 R5
 R6
-L0 304
+L0 3541
 R7
 r1
 !s85 0
