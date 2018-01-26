@@ -12,7 +12,7 @@
     <project-description>
     </project-description>
     <location>C:/Users/Neuromancer/Documents/WorkSpace/HitchHike/HitchHike_FPGA_code/component/work/top</location>
-    <state>GENERATED ( Thu Jan 18 17:08:42 2018 )</state>
+    <state>GENERATED ( Fri Jan 19 01:32:38 2018 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
@@ -49,13 +49,13 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>input_data[6]</port-name>
+    <port-name>input_data[5]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>input_data[4]</port-name>
+    <port-name>input_data[3]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -67,25 +67,19 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>input_data[5]</port-name>
+    <port-name>input_data[4]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>input_data[9]</port-name>
+    <port-name>input_data[8]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
     <port-name>clock</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS12</io-standard>
-  </io>
-  <io>
-    <port-name>input_data[1]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -109,7 +103,7 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>input_data[8]</port-name>
+    <port-name>input_data[7]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -121,7 +115,7 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>input_data[7]</port-name>
+    <port-name>input_data[6]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -139,13 +133,13 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>input_data[2]</port-name>
+    <port-name>input_data[1]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>input_data[3]</port-name>
+    <port-name>input_data[2]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -157,7 +151,7 @@
     <io-standard>LVCMOS12</io-standard>
   </io>
   <io>
-    <port-name>insig</port-name>
+    <port-name>input_data[9]</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS12</io-standard>
@@ -199,12 +193,6 @@
     <core-exttype>dbpsk_modulator</core-exttype>
     <core-location>hdl\dbpsk_modulator.v</core-location>
     <core-name>dbpsk_modulator_0</core-name>
-  </core>
-  <core type="HdlModule">
-    <core-type>HdlModule</core-type>
-    <core-exttype>demodulator</core-exttype>
-    <core-location>hdl\demodulator.v</core-location>
-    <core-name>demodulator_0</core-name>
   </core>
   <core type="AdlibModule">
     <core-type>AdlibModule</core-type>

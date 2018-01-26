@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu Jan 18 17:08:42 2018
+// Created by SmartDesign Fri Jan 19 01:32:37 2018
 // Version: v11.8 SP2 11.8.2.4
 //////////////////////////////////////////////////////////////////////
 
@@ -10,7 +10,6 @@ module top(
     // Inputs
     clock,
     input_data,
-    insig,
     reset,
     trigger_signal,
     // Outputs
@@ -27,7 +26,6 @@ module top(
 //--------------------------------------------------------------------
 input        clock;
 input  [9:0] input_data;
-input        insig;
 input        reset;
 input        trigger_signal;
 //--------------------------------------------------------------------
@@ -42,37 +40,37 @@ output       signal_into_switch;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
-wire         AND2_0_Y;
-wire         AND2_1_Y;
-wire         AND2_2_Y;
-wire         AND2_3_Y;
-wire         clock;
-wire         clock_out_0;
-wire         data_path_signal;
-wire         data_source_0_output_data;
-wire         demodulator_0_sending;
-wire   [9:0] input_data;
-wire         insig;
-wire         INV_1_Y;
-wire         INV_2_Y;
-wire         output_data_rate_net_0;
-wire         output_signal_net_0;
-wire         pll_core_0_GLA;
-wire         ref_signal_net_0;
-wire         reset;
-wire         signal_into_switch_net_0;
-wire         trigger_signal;
-wire         whitening_0_output_whitening;
-wire         Y;
-wire         signal_into_switch_net_1;
-wire         ref_signal_net_1;
-wire         output_data_rate_net_1;
-wire         clock_out_0_net_0;
-wire         output_signal_net_1;
+wire          AND2_0_Y;
+wire          AND2_1_Y;
+wire          AND2_2_Y;
+wire          AND2_3_Y;
+wire          clock;
+wire          clock_out_0;
+wire          data_path_signal;
+wire          data_source_0_output_data;
+wire   [9:0]  input_data;
+wire          INV_1_Y;
+wire          INV_2_Y;
+wire   [15:0] modulator_0_data;
+wire          modulator_0_send;
+wire          output_data_rate_net_0;
+wire          output_signal_net_0;
+wire          pll_core_0_GLA;
+wire          ref_signal_net_0;
+wire          reset;
+wire          signal_into_switch_net_0;
+wire          trigger_signal;
+wire          whitening_0_output_whitening;
+wire          Y;
+wire          signal_into_switch_net_1;
+wire          ref_signal_net_1;
+wire          output_data_rate_net_1;
+wire          clock_out_0_net_0;
+wire          output_signal_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
-wire         VCC_net;
+wire          VCC_net;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
@@ -150,7 +148,8 @@ data_source data_source_0(
         .reset       ( reset ),
         .trigger     ( output_signal_net_0 ),
         .input_data  ( input_data ),
-        .sending     ( demodulator_0_sending ),
+        .sending     ( modulator_0_send ),
+        .mac_data    ( modulator_0_data ),
         // Outputs
         .output_data ( data_source_0_output_data ) 
         );
@@ -164,16 +163,6 @@ dbpsk_modulator dbpsk_modulator_0(
         .trigger      ( output_signal_net_0 ),
         // Outputs
         .output_dbpsk ( output_data_rate_net_0 ) 
-        );
-
-//--------demodulator
-demodulator demodulator_0(
-        // Inputs
-        .clock   ( ref_signal_net_0 ),
-        .reset   ( reset ),
-        .insig   ( insig ),
-        // Outputs
-        .sending ( demodulator_0_sending ) 
         );
 
 //--------INV
@@ -216,7 +205,9 @@ modulator modulator_0(
         .reset          ( reset ),
         .trigger_signal ( trigger_signal ),
         // Outputs
-        .output_signal  ( output_signal_net_0 ) 
+        .output_signal  ( output_signal_net_0 ),
+        .send           ( modulator_0_send ),
+        .data           ( modulator_0_data ) 
         );
 
 //--------OR2

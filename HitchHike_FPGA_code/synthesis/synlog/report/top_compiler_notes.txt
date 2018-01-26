@@ -5,7 +5,6 @@
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":2:7:2:17|Synthesizing module data_source in library work.
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":1:7:1:21|Synthesizing module dbpsk_modulator in library work.
 @N: CG179 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":22:32:22:43|Removing redundant assignment.
-@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v":22:7:22:17|Synthesizing module demodulator in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":1:7:1:16|Synthesizing module main_clock in library work.
 @N: CG179 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":24:25:24:33|Removing redundant assignment.
@@ -23,5 +22,6 @@
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v":1:7:1:15|Synthesizing module whitening in library work.
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
 @N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":5:11:5:20|Input input_data is unused.
+@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":7:12:7:19|Input mac_data is unused.
 @N|Running in 64-bit mode
 

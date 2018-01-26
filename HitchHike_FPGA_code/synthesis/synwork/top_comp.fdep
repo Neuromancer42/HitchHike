@@ -1,4 +1,4 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\synthesis\\synwork\\top_comp.srs|-top|top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\igloo.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\synthesis\\synwork\\top_comp.srs|-top|top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\igloo.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_ver.exe":1479953424
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\igloo.v":1487916450
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\hypermods.v":1487916586
@@ -6,27 +6,25 @@
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487916586
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487916586
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\data_rate.v":1515409068
-#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\data_source.v":1516266310
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\dbpsk_modulator.v":1515409068
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\main_clock.v":1515409068
-#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\modulator.v":1516191443
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\smartgen\\pll_core\\pll_core.v":1515409070
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\ten_mhz_clock.v":1515409069
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\two_mhz_clock.v":1515409069
 #CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\whitening.v":1515409069
-#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\demodulator.v":1516276128
-#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\component\\work\\top\\top.v":1516266522
+#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\modulator.v":1516317769
+#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\hdl\\data_source.v":1516317795
+#CUR:"C:\\Users\\Neuromancer\\Documents\\WorkSpace\\HitchHike\\HitchHike_FPGA_code\\component\\work\\top\\top.v":1516296757
 0			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v" verilog
-1			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v" verilog
-2			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v" verilog
-3			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v" verilog
-4			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v" verilog
-5			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v" verilog
-6			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v" verilog
-7			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v" verilog
-8			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v" verilog
-9			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v" verilog
-10			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v" verilog
+1			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v" verilog
+2			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v" verilog
+3			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v" verilog
+4			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v" verilog
+5			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v" verilog
+6			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\whitening.v" verilog
+7			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v" verilog
+8			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v" verilog
+9			"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
@@ -37,29 +35,26 @@
 6 -1
 7 -1
 8 -1
-9 -1
-10 6 0 8 7 5 4 3 9 2 1
+9 4 0 6 5 3 7 2 1 8
 #Dependency Lists(Users Of)
-0 10
-1 10
-2 10
-3 10
-4 10
-5 10
-6 10
-7 10
-8 10
-9 10
-10 -1
+0 9
+1 9
+2 9
+3 9
+4 9
+5 9
+6 9
+7 9
+8 9
+9 -1
 #Design Unit to File Association
-module work top 10
-module work demodulator 9
-module work whitening 8
-module work two_mhz_clock 7
-module work ten_mhz_clock 6
-module work pll_core 5
-module work modulator 4
-module work main_clock 3
-module work dbpsk_modulator 2
-module work data_source 1
+module work top 9
+module work data_source 8
+module work modulator 7
+module work whitening 6
+module work two_mhz_clock 5
+module work ten_mhz_clock 4
+module work pll_core 3
+module work main_clock 2
+module work dbpsk_modulator 1
 module work data_rate 0

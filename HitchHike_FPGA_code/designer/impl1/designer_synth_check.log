@@ -25,17 +25,17 @@ Created a new design.
 'AUDIT_PIN_FILE' set to '1'
 'AUDIT_ADL_FILE' set to '1'
 
- Netlist Reading Time = 0.0 seconds
+ Netlist Reading Time = 1.0 seconds
 Imported the file:
    C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.edn
 
-The Import command succeeded ( 00:00:03 )
+The Import command succeeded ( 00:00:01 )
 Warning: Overwriting the existing file: ../../synthesis/top.v.
 Wrote to the file: ..\..\synthesis\top.v
 
-The Export command succeeded ( 00:00:02 )
+The Export command succeeded ( 00:00:01 )
 
-The Execute Script command succeeded ( 00:00:19 )
+The Execute Script command succeeded ( 00:00:04 )
 Warning: The database was closed without a save, modifications are lost
 Design closed.
 

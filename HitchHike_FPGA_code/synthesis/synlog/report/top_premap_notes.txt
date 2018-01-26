@@ -1,3 +1,4 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN362 :"c:\users\neuromancer\documents\workspace\hitchhike\hitchhike_fpga_code\hdl\modulator.v":22:0:22:5|Removing sequential instance data[15:0] (in view: work.modulator(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN225 |Writing default property annotation file C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\synthesis\top.sap.

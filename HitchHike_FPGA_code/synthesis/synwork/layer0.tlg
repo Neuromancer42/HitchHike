@@ -19,15 +19,15 @@ Selecting top level module top
 @W: CL250 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|All reachable assignments to data2[7:0] assign 0, register removed by optimization
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":2:7:2:17|Synthesizing module data_source in library work.
 
-@A: CL291 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":18:0:18:5|Register state with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
-@W: CL113 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":18:0:18:5|Feedback mux created for signal data5[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
-@W: CL250 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":18:0:18:5|All reachable assignments to data5[7:0] assign 0, register removed by optimization
+@W: CG133 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":17:9:17:13|Object data5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":19:0:19:5|Pruning unused register data1[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":19:0:19:5|Pruning unused register data2[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":19:0:19:5|Pruning unused register data3[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":19:0:19:5|Pruning unused register data4[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":19:0:19:5|Pruning unused register state[143:0]. Make sure that there are no unused intermediate registers.
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":1:7:1:21|Synthesizing module dbpsk_modulator in library work.
 
 @N: CG179 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":22:32:22:43|Removing redundant assignment.
-@N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v":22:7:22:17|Synthesizing module demodulator in library work.
-
-@W: CL271 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\demodulator.v":40:0:40:5|Pruning unused bits 50 to 4 of buffer[50:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
 
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":1:7:1:16|Synthesizing module main_clock in library work.
@@ -35,6 +35,9 @@ Selecting top level module top
 @N: CG179 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":24:25:24:33|Removing redundant assignment.
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v":1:7:1:15|Synthesizing module modulator in library work.
 
+@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v":22:0:22:5|Pruning unused register buffer[50:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v":22:0:22:5|Pruning unused register len[5:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\modulator.v":22:0:22:5|Pruning unused register header[3:0]. Make sure that there are no unused intermediate registers.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1464:7:1464:9|Synthesizing module OR2 in library work.
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
@@ -57,6 +60,7 @@ Selecting top level module top
 
 @N: CG364 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
 
-@W: CL168 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":251:14:251:28|Removing instance ten_mhz_clock_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":137:10:137:20|Removing instance data_rate_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":242:14:242:28|Removing instance ten_mhz_clock_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":135:10:135:20|Removing instance data_rate_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":5:11:5:20|Input input_data is unused.
+@N: CL159 :"C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":7:12:7:19|Input mac_data is unused.

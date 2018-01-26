@@ -1,6 +1,6 @@
 Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
 
-Date      :  Thu Jan 18 17:08:43 2018
+Date      :  Fri Jan 19 01:32:38 2018
 Project   :  C:\Users\Neuromancer\Documents\WorkSpace\HitchHike\HitchHike_FPGA_code
 Component :  top
 Family    :  IGLOO
